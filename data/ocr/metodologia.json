@@ -1,0 +1,16 @@
+{
+  "proyecto": "Construction Intelligence AI",
+  "paso": 24,
+  "motor_ocr": "RapidOCR + ONNX Runtime",
+  "imagenes": "original",
+  "documentos": 5,
+  "tipo_evaluacion": "Exploratoria",
+  "advertencias": [
+    "Se reutilizan las cinco imágenes ya examinadas.",
+    "La coincidencia textual usa umbral de 0.65.",
+    "No equivale a una medición CER/WER.",
+    "La segmentación de líneas afecta los resultados.",
+    "Los modelos documentales no fueron reentrenados.",
+    "Los importes detectados no están aprobados."
+  ]
+}

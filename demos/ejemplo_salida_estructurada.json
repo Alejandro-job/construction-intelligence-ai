@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "tipo": "cotizacion",
+  "origen": {
+    "archivo": "cotizacion_demo_correcta.pdf",
+    "metodos_extraccion": [
+      "TEXTO_PDF"
+    ]
+  },
+  "folio": "DEMO-CTZ-2026-014",
+  "fecha": "2026-10-13",
+  "cliente": {
+    "nombre": "Constructora Ejemplo SA de CV",
+    "rfc": "CEX010101AAA",
+    "correo": "compras@ejemplo.invalid"
+  },
+  "proyecto": "Edificio Demo Norte",
+  "moneda": "MXN",
+  "conceptos": [
+    {
+      "codigo": "MAT-001",
+      "descripcion": "CONCRETO PREMEZCLADO FC 250",
+      "cantidad": 2.0,
+      "unidad": "m3",
+      "precio_unitario": 3000.0,
+      "importe_documento": 6000.0,
+      "importe_calculado": 6000.0,
+      "coincide_importe": true
+    },
+    {
+      "codigo": "MAT-002",
+      "descripcion": "BLOCK HUECO 12X20X40",
+      "cantidad": 100.0,
+      "unidad": "pza",
+      "precio_unitario": 28.0,
+      "importe_documento": 2800.0,
+      "importe_calculado": 2800.0,
+      "coincide_importe": true
+    },
+    {
+      "codigo": "MAT-003",
+      "descripcion": "VARILLA ACERO 3/8",
+      "cantidad": 20.0,
+      "unidad": "kg",
+      "precio_unitario": 50.0,
+      "importe_documento": 1000.0,
+      "importe_calculado": 1000.0,
+      "coincide_importe": true
+    }
+  ],
+  "totales": {
+    "subtotal_documento": 9800.0,
+    "subtotal_recalculado": 9800.0,
+    "iva_documento": 1568.0,
+    "total_documento": 11368.0,
+    "total_esperado_segun_documento": 11368.0
+  },
+  "control": {
+    "estado": "REVISION_PENDIENTE",
+    "validaciones_aprobadas": true,
+    "revision_manual_confirmada": false,
+    "alertas": [],
+    "nota": "Demo. No se envía a un ERP; JSON y CSV quedan listos para integración previa autorización."
+  }
+}

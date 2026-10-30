@@ -1,0 +1,6 @@
+documento,modo,lineas_referencia,lineas_ocr,coincidencias,clases_correctas,confianza_ocr_media
+cord-test-0000,RapidOCR_neuronal,11,15,10,8,0.948554
+cord-test-0001,RapidOCR_neuronal,8,10,7,6,0.9946299999999999
+cord-test-0002,RapidOCR_neuronal,10,14,7,6,0.9506135714285715
+cord-test-0003,RapidOCR_neuronal,8,12,8,6,0.9591083333333333
+cord-test-0004,RapidOCR_neuronal,14,28,8,6,0.8753149999999998

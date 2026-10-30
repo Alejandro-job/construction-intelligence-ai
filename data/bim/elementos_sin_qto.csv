@@ -1,0 +1,29 @@
+﻿archivo,global_id,ifc_class,nombre,planta,material,numero_cantidades,estado
+LargeBuilding.ifc,0GGYMLdkHC8AnJCv0l2s_7,IfcBuildingElementProxy,Model Text:600mm Arial:352583,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0COIc,IfcBuildingElementProxy,Model Text:600mm Arial:355786,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPj4,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:356904,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPiD,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:356961,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPl_,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:357010,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPkd,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:357067,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPfi,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:357120,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPfT,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:357169,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPeU,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:357234,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPht,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:357275,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPgu,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:357332,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPgL,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:357369,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPq8,IfcBuildingElementProxy,M_RPC Tree - Deciduous:Siberian Crab Apple - 6.1 Meters:357476,Level 1,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0COSw,IfcRoof,Basic Roof:Generic - 400mm:355926,Level 2,,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0COSH,IfcFurnishingElement,M_Desk:1525 x 762mm:355965,2,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0COUq,IfcFurnishingElement,M_Desk:1525 x 762mm:356056,2,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0COUV,IfcFurnishingElement,M_Desk:1525 x 762mm:356083,2,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0COPC,IfcFurnishingElement,M_Desk:1525 x 762mm:356128,1,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0COOB,IfcFurnishingElement,M_Desk:1525 x 762mm:356199,1,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0COR8,IfcFurnishingElement,M_Desk:1525 x 762mm:356260,1,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPbH,IfcFurnishingElement,M_Desk:1525 x 762mm:356413,6,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPc5,IfcFurnishingElement,M_Desk:1525 x 762mm:356585,6,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPXs,IfcFurnishingElement,M_Desk:1525 x 762mm:356634,5,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPWh,IfcFurnishingElement,M_Desk:1525 x 762mm:356679,5,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPWU,IfcFurnishingElement,M_Desk:1525 x 762mm:356722,7,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPZn,IfcFurnishingElement,M_Desk:1525 x 762mm:356765,7,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPYa,IfcFurnishingElement,M_Desk:1525 x 762mm:356808,7,IfcMaterialList,0,SIN_CANTIDADES_QTO
+LargeBuilding.ifc,2cXV28XOjE6f6irgi0CPYV,IfcFurnishingElement,M_Desk:1525 x 762mm:356851,8,IfcMaterialList,0,SIN_CANTIDADES_QTO

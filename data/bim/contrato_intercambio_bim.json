@@ -1,0 +1,113 @@
+{
+  "schema_name": "CONSTRUCTION_INTELLIGENCE_IFC_EXCHANGE",
+  "schema_version": "1.0",
+  "fecha_generacion_utc": "2026-10-13T08:04:26.914748+00:00",
+  "formato_destino_previsto": [
+    "Dynamo_Revit",
+    "Grasshopper_Rhino"
+  ],
+  "conexion_desktop_activa": false,
+  "nota": "Datos resumidos de IFC de demostracion. No es un conector nativo; ni mide geometría desde Revit/Rhino, ni autoriza presupuestos.",
+  "conceptos_bim": [
+    {
+      "id": "BIM-001",
+      "proyecto_id": "DEMO-IFC-LARGEBUILDING",
+      "origen": "IFC_PUBLICO_DEMO",
+      "concepto": "Muros - volumen neto",
+      "cantidad": 146.6028,
+      "unidad": "m3",
+      "material_homologado": null,
+      "precio_unitario_mxn": null,
+      "importe_mxn": null,
+      "estado": "PRELIMINAR_NO_APROBADO",
+      "apto_presupuesto": false,
+      "requiere_validar_cantidades": false
+    },
+    {
+      "id": "BIM-002",
+      "proyecto_id": "DEMO-IFC-LARGEBUILDING",
+      "origen": "IFC_PUBLICO_DEMO",
+      "concepto": "Muros - superficie lateral neta",
+      "cantidad": 1641.6213,
+      "unidad": "m2",
+      "material_homologado": null,
+      "precio_unitario_mxn": null,
+      "importe_mxn": null,
+      "estado": "PRELIMINAR_NO_APROBADO",
+      "apto_presupuesto": false,
+      "requiere_validar_cantidades": false
+    },
+    {
+      "id": "BIM-003",
+      "proyecto_id": "DEMO-IFC-LARGEBUILDING",
+      "origen": "IFC_PUBLICO_DEMO",
+      "concepto": "Losas - volumen neto",
+      "cantidad": 132.954,
+      "unidad": "m3",
+      "material_homologado": null,
+      "precio_unitario_mxn": null,
+      "importe_mxn": null,
+      "estado": "BLOQUEADO_ALERTA_BIM",
+      "apto_presupuesto": false,
+      "requiere_validar_cantidades": true
+    },
+    {
+      "id": "BIM-004",
+      "proyecto_id": "DEMO-IFC-LARGEBUILDING",
+      "origen": "IFC_PUBLICO_DEMO",
+      "concepto": "Plafones - área bruta",
+      "cantidad": 304.18,
+      "unidad": "m2",
+      "material_homologado": null,
+      "precio_unitario_mxn": null,
+      "importe_mxn": null,
+      "estado": "PRELIMINAR_NO_APROBADO",
+      "apto_presupuesto": false,
+      "requiere_validar_cantidades": false
+    },
+    {
+      "id": "BIM-005",
+      "proyecto_id": "DEMO-IFC-LARGEBUILDING",
+      "origen": "IFC_PUBLICO_DEMO",
+      "concepto": "Puertas - cantidad de elementos",
+      "cantidad": 18.0,
+      "unidad": "pza",
+      "material_homologado": null,
+      "precio_unitario_mxn": null,
+      "importe_mxn": null,
+      "estado": "PRELIMINAR_NO_APROBADO",
+      "apto_presupuesto": false,
+      "requiere_validar_cantidades": false
+    },
+    {
+      "id": "BIM-006",
+      "proyecto_id": "DEMO-IFC-LARGEBUILDING",
+      "origen": "IFC_PUBLICO_DEMO",
+      "concepto": "Ventanas - cantidad de elementos",
+      "cantidad": 42.0,
+      "unidad": "pza",
+      "material_homologado": null,
+      "precio_unitario_mxn": null,
+      "importe_mxn": null,
+      "estado": "PRELIMINAR_NO_APROBADO",
+      "apto_presupuesto": false,
+      "requiere_validar_cantidades": false
+    }
+  ],
+  "coincidencias_documentales_sugeridas": [
+    {
+      "id_cfdi": "CFDI-001",
+      "cfdi": "Concreto premezclado DEMO",
+      "pdf": "Suministro de concreto premezclado",
+      "similitud_textual": 0.7245,
+      "unidad": "m3",
+      "precio_cfdi_demo": 3000.0,
+      "precio_pdf_demo": 2450.0,
+      "estado": "NO_APROBADO",
+      "puede_comparar_precios": false,
+      "motivo": "No consta mismo proyecto, proveedor/fecha/alcance comparables ni precios aprobados"
+    }
+  ],
+  "precios_aprobados_para_este_modelo": [],
+  "facturacion_real_activada": false
+}

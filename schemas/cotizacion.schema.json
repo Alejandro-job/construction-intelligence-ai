@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Construction Intelligence AI - Contrato de cotizacion",
+  "type": "object",
+  "required": ["schema_version", "tipo", "origen", "folio", "cliente", "proyecto", "moneda", "conceptos", "totales", "control"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "tipo": {"const": "cotizacion"},
+    "origen": {
+      "type": "object",
+      "required": ["archivo", "metodos_extraccion"],
+      "properties": {
+        "archivo": {"type": "string"},
+        "metodos_extraccion": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "folio": {"type": "string"},
+    "fecha": {"type": "string"},
+    "cliente": {
+      "type": "object", "required": ["nombre", "rfc", "correo"],
+      "properties": {"nombre": {"type": "string"}, "rfc": {"type": "string"}, "correo": {"type": "string"}}
+    },
+    "proyecto": {"type": "string"},
+    "moneda": {"type": "string", "enum": ["MXN", "USD", "EUR", ""]},
+    "conceptos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["codigo", "descripcion", "cantidad", "unidad", "precio_unitario", "importe_documento", "importe_calculado", "coincide_importe"],
+        "properties": {
+          "codigo": {"type": "string"},
+          "descripcion": {"type": "string"},
+          "cantidad": {"type": ["number", "null"]},
+          "unidad": {"type": "string"},
+          "precio_unitario": {"type": ["number", "null"]},
+          "importe_documento": {"type": ["number", "null"]},
+          "importe_calculado": {"type": ["number", "null"]},
+          "coincide_importe": {"type": "boolean"}
+        }
+      }
+    },
+    "totales": {
+      "type": "object", "required": ["subtotal_documento", "subtotal_recalculado", "iva_documento", "total_documento", "total_esperado_segun_documento"],
+      "properties": {
+        "subtotal_documento": {"type": ["number", "null"]},
+        "subtotal_recalculado": {"type": ["number", "null"]},
+        "iva_documento": {"type": ["number", "null"]},
+        "total_documento": {"type": ["number", "null"]},
+        "total_esperado_segun_documento": {"type": ["number", "null"]}
+      }
+    },
+    "control": {"type": "object", "required": ["estado", "validaciones_aprobadas", "revision_manual_confirmada", "alertas"]}
+  }
+}

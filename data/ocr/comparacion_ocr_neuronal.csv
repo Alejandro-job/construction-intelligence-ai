@@ -1,0 +1,5 @@
+modo,documentos,lineas_referencia,lineas_ocr,coincidencias,clases_correctas,confianza_media,cobertura_textual_aproximada,clasificacion_condicional_aproximada
+PSM11_disperso,5,51,82,19,13,0.5741061370002546,0.3725490196078431,0.6842105263157895
+PSM4_columnas,5,51,24,14,13,0.6106685267857144,0.2745098039215686,0.9285714285714286
+PSM6_original,5,51,40,16,15,0.5206350264550265,0.3137254901960784,0.9375
+RapidOCR_neuronal,5,51,79,40,32,0.945644180952381,0.7843137254901961,0.8

@@ -1,0 +1,129 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 841.8898 595.2756 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/PageMode /UseNone /Pages 10 0 R /Type /Catalog
+>>
+endobj
+9 0 obj
+<<
+/Author (anonymous) /CreationDate (D:20261013213520+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20261013213520+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (COTIZACION DEMOSTRATIVA - DATOS FICTICIOS) /Trapped /False
+>>
+endobj
+10 0 obj
+<<
+/Count 1 /Kids [ 7 0 R ] /Type /Pages
+>>
+endobj
+11 0 obj
+<<
+/Length 1867
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.062745 .109804 .207843 rg
+n 0 501.2756 841.8898 94 re f*
+BT /F2 22 Tf 26.4 TL ET
+1 1 1 rg
+BT 1 0 0 1 42 541.2756 Tm (COTIZACION DE MATERIALES) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+.682353 .788235 .909804 rg
+BT 1 0 0 1 42 520.2756 Tm (DEMO INDEPENDIENTE - DATOS FICTICIOS - NO FISCAL) Tj T* ET
+.141176 .207843 .294118 rg
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 44 470.2756 Tm (FOLIO: DEMO-CTZ-2026-014) Tj T* ET
+BT 1 0 0 1 44 449.2756 Tm (FECHA: 2026-10-13) Tj T* ET
+BT 1 0 0 1 44 428.2756 Tm (CLIENTE: Constructora Ejemplo SA de CV) Tj T* ET
+BT 1 0 0 1 44 407.2756 Tm (RFC: CEX010101AAA) Tj T* ET
+BT 1 0 0 1 44 386.2756 Tm (CORREO: compras@ejemplo.invalid) Tj T* ET
+BT 1 0 0 1 44 365.2756 Tm (PROYECTO: Edificio Demo Norte) Tj T* ET
+BT 1 0 0 1 44 344.2756 Tm (MONEDA: MXN) Tj T* ET
+.788235 .831373 .882353 RG
+n 44 308.2756 m 797.8898 308.2756 l S
+BT /F3 8.8 Tf 10.56 TL ET
+BT 1 0 0 1 44 288.2756 Tm (CODIGO | DESCRIPCION | CANTIDAD | UNIDAD | PRECIO UNITARIO | IMPORTE) Tj T* ET
+BT /F4 9 Tf 10.8 TL ET
+BT 1 0 0 1 44 266.2756 Tm (MAT-001 | CONCRETO PREMEZCLADO FC 250 | 2.00 | m3 | 3,000.00 | 6,000.00) Tj T* ET
+BT 1 0 0 1 44 242.2756 Tm (MAT-002 | BLOCK HUECO 12X20X40 | 100.00 | pza | 28.00 | 2,800.00) Tj T* ET
+BT 1 0 0 1 44 218.2756 Tm (MAT-003 | VARILLA ACERO 3/8 | 20.00 | kg | 50.00 | 1,000.00) Tj T* ET
+.788235 .831373 .882353 RG
+n 44 182.2756 m 797.8898 182.2756 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 44 154.2756 Tm (SUBTOTAL: $9,800.00) Tj T* ET
+BT 1 0 0 1 44 130.2756 Tm (IVA 16%: $1,568.00) Tj T* ET
+BT 1 0 0 1 44 106.2756 Tm (TOTAL: $11,368.00) Tj T* ET
+BT /F5 9 Tf 10.8 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 44 55 Tm (Ejemplo para demostrar extraccion, validacion aritmetica y exportacion estructurada.) Tj T* ET
+BT 1 0 0 1 44 42 Tm (Todos los importes aritmeticos coinciden. Revisar aun el contenido antes de aprobar.) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000061 00000 n 
+0000000132 00000 n 
+0000000239 00000 n 
+0000000351 00000 n 
+0000000461 00000 n 
+0000000566 00000 n 
+0000000681 00000 n 
+0000000886 00000 n 
+0000000955 00000 n 
+0000001249 00000 n 
+0000001309 00000 n 
+trailer
+<<
+/ID 
+[<558e348fcc486c21786c6e65f9568670><558e348fcc486c21786c6e65f9568670>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 9 0 R
+/Root 8 0 R
+/Size 12
+>>
+startxref
+3228
+%%EOF

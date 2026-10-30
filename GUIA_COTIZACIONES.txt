@@ -1,0 +1,52 @@
+CONSTRUCTION INTELLIGENCE AI - DEMO DE COTIZACIONES ESTRUCTURADAS
+Proyecto de portafolio independiente. Datos ficticios y documentos de demostracion.
+
+ACTUALIZAR LA VERSION PRO QUE YA TIENES EN WINDOWS
+
+1. Descomprime Actualizacion_Cotizaciones_Solo_Archivos.zip en la carpeta
+   Construction_Intelligence_Dashboard que tienes abierta en VS Code.
+2. Cuando Windows pregunte, reemplaza app.py por el nuevo. Se conservan
+   data/, models/, assets/, requirements.txt y el entorno virtual .venv.
+3. En la terminal de VS Code ejecuta:
+   .\.venv\Scripts\python.exe -m streamlit run app.py
+4. Abre http://localhost:8501 y selecciona Cotizaciones estructuradas.
+
+GUION DE DEMOSTRACION DE 2 MINUTOS
+
+A) Descarga cotizacion_demo_error.pdf desde la app (o abre demos/).
+B) Sube el PDF y pulsa Extraer datos y detectar conceptos.
+C) Enseña cliente, folio, proyecto, tres conceptos y subtotal recalculado.
+D) Señala el error detectado: 2 x 3000 = 6000, pero el documento indica 5990.
+E) Explica que no puede aprobarse mientras existan discrepancias.
+F) Si el proveedor confirmo la correccion (en este caso, documento ficticio),
+   corrige Importe declarado a 6000 en la tabla editable.
+G) Documenta la correccion en Nota de revision, marca la confirmacion de
+   cotejo y la declaracion sobre la discrepancia original, y pulsa Aprobar.
+H) Exporta JSON y CSV. Muestra que el JSON contiene:
+   - cliente / folio / proyecto / moneda
+   - conceptos con codigo, descripcion, cantidad, unidad, precio unitario
+   - importe_documento, importe_calculado y validacion por partida
+   - subtotal / IVA / total
+   - control, alertas_de_origen, correcciones_registradas y nota_revisor.
+
+LIMITACIONES QUE DEBES EXPLICAR EN LA ENTREVISTA
+
+* PDF con texto: extraccion nativa de texto + reglas transparentes por etiquetas.
+* JPG o PDF escaneado: RapidOCR neuronal. Puede requerir descargar sus pesos
+  en la primera ejecucion y corregir filas no reconocidas.
+* Un formato arbitrario de otro proveedor no queda automaticamente homologado;
+  la tabla delimitada de la demostracion tiene un contrato explicito. Los
+  formatos libres requieren reglas, mapeadores o un extractor entrenado por tipo.
+* El componente Document AI entrenado en CORD identifica categorias de recibos,
+  pero no se debe afirmar que identifica facturas mexicanas con exactitud validada.
+* Las validaciones comprueban formato, presencia y aritmetica, no legitimidad
+  del RFC, identidad del cliente, impuestos aplicables ni precios de mercado.
+* La salida se descarga. No hay envio real a ERP, API, CRM ni correo.
+* La confirmacion humana es obligatoria para estado APROBADO_POR_REVISOR.
+
+COMPROBAR LA LOGICA DEL EXTRACTOR
+Desde terminal de VS Code en esta carpeta:
+   .\.venv\Scripts\python.exe -m unittest discover -s tests -v
+
+Esquema opcional de salida: schemas/cotizacion.schema.json
+Ejemplo JSON: demos/ejemplo_salida_estructurada.json

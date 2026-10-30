@@ -1,0 +1,3 @@
+material,modelo_elegido,MAE_persistencia,MAE_modelo,mejora_porcentaje,acierto_direccion_porcentaje,IC95_aprox_inferior,IC95_aprox_superior,meses_prueba
+Acero,LSTM,7.8245833333333294,5.965019826648413,23.765655338643178,72.91666666666666,-1.8878467008877946,46.58151217198911,48
+Madera,Persistencia,1.7728750000000015,1.7728750000000015,0.0,,0.0,0.0,48

@@ -1,0 +1,11 @@
+{
+  "proyecto": "Construction Intelligence AI - prototipo IFC de fuente publica",
+  "elementos": 123,
+  "elementos_con_qto": 95,
+  "elementos_sin_qto": 28,
+  "registros_cantidades": 357,
+  "alertas_de_coherencia": 16,
+  "conceptos_pre_presupuesto": 6,
+  "importe_estimado": "NO_CALCULADO_NO_HAY_PRECIOS",
+  "alcance": "IFC de ejemplo y presupuesto PDF anterior corresponden a proyectos diferentes"
+}

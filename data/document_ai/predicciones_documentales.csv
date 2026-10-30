@@ -1,0 +1,1337 @@
+documento,numero_linea,texto,etiqueta_original,categoria,split,prediccion
+test_0,0,TAX 5.455,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_0,1,TOTAL 60.000,total.total_price,TOTAL,test,TOTAL
+test_0,2,(Qty 2.00,total.menuqty_cnt,TOTAL,test,TOTAL
+test_0,3,EDC CIMB NIAGA No: xx7730 60.000,total.creditcardprice,TOTAL,test,TOTAL
+test_0,4,901016,menu.num,OTRO,test,OTRO
+test_0,5,-TICKET CP,menu.nm,ARTICULO,test,ARTICULO
+test_0,6,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_0,7,60.000,menu.price,PRECIO,test,PRECIO
+test_0,8,60.000,menu.itemsubtotal,PRECIO,test,PRECIO
+test_0,9,Subtotal 60.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_0,10,TOTAL DISC $ -60.000,sub_total.discount_price,SUBTOTAL,test,SUBTOTAL
+test_1,0,J.STB PROMO,menu.nm,ARTICULO,test,ARTICULO
+test_1,1,17500,menu.price,PRECIO,test,PRECIO
+test_1,2,Y.B.BAT,menu.nm,ARTICULO,test,ARTICULO
+test_1,3,46000,menu.price,PRECIO,test,PRECIO
+test_1,4,Y.BASO PROM,menu.nm,ARTICULO,test,ARTICULO
+test_1,5,27500,menu.price,PRECIO,test,PRECIO
+test_1,6,TOTAL 91000,total.total_price,TOTAL,test,TOTAL
+test_1,7,CASH 91000,total.cashprice,TOTAL,test,TOTAL
+test_2,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_2,1,JASMINE MT ( L ),menu.nm,ARTICULO,test,ARTICULO
+test_2,2,"24,000",menu.price,PRECIO,test,PRECIO
+test_2,3,COCONUT JELLY ( L ),menu.sub_nm,ARTICULO,test,ARTICULO
+test_2,4,"4,000",menu.sub_price,OTRO,test,OTRO
+test_2,5,"SUB TOTAL 28,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_2,6,"TOTAL SAI S 28,000",total.total_price,TOTAL,test,TOTAL
+test_2,7,TOTAL ITEMS 1,total.menuqty_cnt,TOTAL,test,TOTAL
+test_2,8,"CASH 100,000",total.cashprice,TOTAL,test,TOTAL
+test_2,9,"CHANGE 72,000",total.changeprice,TOTAL,test,TOTAL
+test_3,0,1X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_3,1,@11000,menu.unitprice,PRECIO,test,PRECIO
+test_3,2,DONAT GULA,menu.nm,ARTICULO,test,ARTICULO
+test_3,3,"11,000",menu.price,PRECIO,test,PRECIO
+test_3,4,"SUBTOTAL 11,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_3,5,1.00xITEMs,total.menuqty_cnt,TOTAL,test,TOTAL
+test_3,6,"TOTAL 11,000",total.total_price,TOTAL,test,TOTAL
+test_3,7,"CASH 11,000",total.cashprice,TOTAL,test,TOTAL
+test_4,0,ICE BLACKCOFFE,menu.nm,ARTICULO,test,ARTICULO
+test_4,1,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_4,2,"82,000",menu.price,PRECIO,test,PRECIO
+test_4,3,"TOTAL 174,600",total.total_price,TOTAL,test,TOTAL
+test_4,4,"CASH 200,000",total.cashprice,TOTAL,test,TOTAL
+test_4,5,"CHANGE 25,400",total.changeprice,TOTAL,test,TOTAL
+test_4,6,AVOCADO COFFEE,menu.nm,ARTICULO,test,ARTICULO
+test_4,7,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_4,8,"61,000",menu.price,PRECIO,test,PRECIO
+test_4,9,CHIKEN KATSU FF,menu.nm,ARTICULO,test,ARTICULO
+test_4,10,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_4,11,"51,000",menu.price,PRECIO,test,PRECIO
+test_4,12,"SUB_TOTAL 194,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_4,13,"DISCOUNT 19,400",sub_total.discount_price,SUBTOTAL,test,SUBTOTAL
+test_5,0,TRAD KY TOAST CARTE,menu.nm,ARTICULO,test,ARTICULO
+test_5,1,28.182,menu.price,PRECIO,test,PRECIO
+test_5,2,SUBTTL 28.182,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_5,3,PB-1 10% 2.818,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_5,4,TOTAL 31.000,total.total_price,TOTAL,test,TOTAL
+test_5,5,CASH 31.000,total.cashprice,TOTAL,test,TOTAL
+test_5,6,ITEMS 1.00,total.menuqty_cnt,TOTAL,test,TOTAL
+test_6,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_6,1,EGG TART,menu.nm,ARTICULO,test,ARTICULO
+test_6,2,"13,000",menu.price,PRECIO,test,PRECIO
+test_6,3,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_6,4,CHOCO CUS ARD PASTRY,menu.nm,ARTICULO,test,ARTICULO
+test_6,5,"24,000",menu.price,PRECIO,test,PRECIO
+test_6,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_6,7,REDBEAN BREAD,menu.nm,ARTICULO,test,ARTICULO
+test_6,8,"9,000",menu.price,PRECIO,test,PRECIO
+test_6,9,"TOTAL 46,000",total.total_price,TOTAL,test,TOTAL
+test_6,10,"CASH 50,000",total.cashprice,TOTAL,test,TOTAL
+test_6,11,"CHANGE 4,000",total.changeprice,TOTAL,test,TOTAL
+test_7,0,Kupon 15,menu.nm,ARTICULO,test,ARTICULO
+test_7,1,"100,000",menu.price,PRECIO,test,PRECIO
+test_7,2,ADD CHICKEN BOX,menu.sub_nm,ARTICULO,test,ARTICULO
+test_7,3,909,menu.sub_price,OTRO,test,PRECIO
+test_7,4,"Subtotal 100,909",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_7,5,"PB1 (10%) 10,091",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_7,6,"Total 111,000",total.total_price,TOTAL,test,TOTAL
+test_7,7,"Cash Rp. 111,000",total.cashprice,TOTAL,test,TOTAL
+test_8,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_8,1,[REG] BLACK SAKURA,menu.nm,ARTICULO,test,ARTICULO
+test_8,2,"45,455",menu.price,PRECIO,test,PRECIO
+test_8,3,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_8,4,COOKIE DOH SAUCES,menu.sub_nm,ARTICULO,test,ARTICULO
+test_8,5,0,menu.sub_price,OTRO,test,CANTIDAD
+test_8,6,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_8,7,NATA DE COCO,menu.sub_nm,ARTICULO,test,ARTICULO
+test_8,8,0,menu.sub_price,OTRO,test,CANTIDAD
+test_8,9,"Sub Total 45,455",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_8,10,"PB1 (10%) 4,545",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_8,11,Rounding 0,sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_8,12,"Total 50,000",total.total_price,TOTAL,test,TOTAL
+test_8,13,"Card Payment 50,000",total.creditcardprice,TOTAL,test,TOTAL
+test_9,0,Sub Total 36000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_9,1,Discount (0%),sub_total.discount_price,SUBTOTAL,test,SUBTOTAL
+test_9,2,Tunai 50000,total.cashprice,TOTAL,test,TOTAL
+test_9,3,Kembalian 14000,total.changeprice,TOTAL,test,TOTAL
+test_9,4,Bumbu Kaldu Ayam 1,menu.nm,ARTICULO,test,ARTICULO
+test_9,5,36000,menu.unitprice,PRECIO,test,PRECIO
+test_9,6,36000,menu.price,PRECIO,test,PRECIO
+test_10,0,x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_10,1,CINNAMON SUGAR,menu.nm,ARTICULO,test,ARTICULO
+test_10,2,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_10,3,"17,000",menu.unitprice,PRECIO,test,PRECIO
+test_10,4,"17,000",menu.price,PRECIO,test,PRECIO
+test_10,5,"SUB TOTAL 17,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_10,6,"GRAND TOTAL 17,000",total.total_price,TOTAL,test,TOTAL
+test_10,7,"CASH IDR 20,000",total.cashprice,TOTAL,test,TOTAL
+test_10,8,"CHANGE DUE 3,000",total.changeprice,TOTAL,test,TOTAL
+test_11,0,"TOTAL 230,000",total.total_price,TOTAL,test,TOTAL
+test_11,1,"CASH 230,000",total.cashprice,TOTAL,test,TOTAL
+test_11,2,CHANGE 0,total.changeprice,TOTAL,test,TOTAL
+test_11,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_11,4,BANABERRY FRESH CREAM CAK,menu.nm,ARTICULO,test,ARTICULO
+test_11,5,"230,000",menu.price,PRECIO,test,PRECIO
+test_12,0,0571-1854,menu.num,OTRO,test,OTRO
+test_12,1,BLUS WANITA,menu.nm,ARTICULO,test,ARTICULO
+test_12,2,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_12,3,"@120,000",menu.unitprice,PRECIO,test,PRECIO
+test_12,4,0%,menu.discountprice,OTRO,test,ARTICULO
+test_12,5,"120,000",menu.itemsubtotal,PRECIO,test,PRECIO
+test_12,6,1002-0060,menu.num,OTRO,test,OTRO
+test_12,7,SHOPPING BAG,menu.nm,ARTICULO,test,ARTICULO
+test_12,8,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_12,9,@880,menu.unitprice,PRECIO,test,CANTIDAD
+test_12,10,100%,menu.discountprice,OTRO,test,OTRO
+test_12,11,0,menu.itemsubtotal,PRECIO,test,CANTIDAD
+test_12,12,"TOTAL 120,000",total.total_price,TOTAL,test,TOTAL
+test_12,13,"CC.Visa.BCA 120,000",total.creditcardprice,TOTAL,test,TOTAL
+test_12,14,Total Kembalian 0,total.changeprice,TOTAL,test,TOTAL
+test_12,15,(2 item),total.menuqty_cnt,TOTAL,test,TOTAL
+test_13,0,DPP 46.636,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_13,1,BASO KUAH,menu.nm,ARTICULO,test,ARTICULO
+test_13,2,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_13,3,43.636,menu.unitprice,PRECIO,test,PRECIO
+test_13,4,43.636,menu.price,PRECIO,test,PRECIO
+test_13,5,TOTAL 46.636,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_13,6,TAX 10.00 % 4.664,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_13,7,GRAND TOTAL 51.300,total.total_price,TOTAL,test,TOTAL
+test_13,8,TUNAI 52.000,total.cashprice,TOTAL,test,TOTAL
+test_13,9,KEMBALI 700,total.changeprice,TOTAL,test,TOTAL
+test_13,10,A.MINERAL GELAS,menu.nm,ARTICULO,test,ARTICULO
+test_13,11,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_13,12,"3,000",menu.unitprice,PRECIO,test,PRECIO
+test_13,13,"3,000",menu.price,PRECIO,test,PRECIO
+test_14,0,"TOTAL 281,435",total.total_price,TOTAL,test,TOTAL
+test_14,1,"CASH 200,000",total.cashprice,TOTAL,test,TOTAL
+test_14,2,"Coupon 100,000",total.total_etc,TOTAL,test,TOTAL
+test_14,3,"Change 18,565",total.changeprice,TOTAL,test,TOTAL
+test_14,4,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_14,5,RedVelvet Cheese Slc,menu.nm,ARTICULO,test,ARTICULO
+test_14,6,"38,000",menu.price,PRECIO,test,PRECIO
+test_14,7,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_14,8,Chicken Baked Rice,menu.nm,ARTICULO,test,ARTICULO
+test_14,9,"55,000",menu.price,PRECIO,test,PRECIO
+test_14,10,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_14,11,Fish n Chips,menu.nm,ARTICULO,test,ARTICULO
+test_14,12,"65,000",menu.price,PRECIO,test,PRECIO
+test_14,13,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_14,14,Mushroom Soup,menu.nm,ARTICULO,test,ARTICULO
+test_14,15,"35,000",menu.price,PRECIO,test,PRECIO
+test_14,16,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_14,17,Chamomile,menu.nm,ARTICULO,test,ARTICULO
+test_14,18,"25,000",menu.price,PRECIO,test,PRECIO
+test_14,19,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_14,20,Iced Tea,menu.nm,ARTICULO,test,ARTICULO
+test_14,21,"20,000",menu.price,PRECIO,test,PRECIO
+test_14,22,"SUBTOTAL 238,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_14,23,"Service 17,850",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_14,24,"PB1 25,585",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_15,0,TOTAL 63.000,total.total_price,TOTAL,test,TOTAL
+test_15,1,CASH 70.000,total.cashprice,TOTAL,test,TOTAL
+test_15,2,CHANGED 7.000,total.changeprice,TOTAL,test,TOTAL
+test_15,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_15,4,Lemon Tea (L),menu.nm,ARTICULO,test,ARTICULO
+test_15,5,25.000,menu.price,PRECIO,test,PRECIO
+test_15,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_15,7,Caramel Small,menu.nm,ARTICULO,test,ARTICULO
+test_15,8,38.000,menu.price,PRECIO,test,PRECIO
+test_16,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_16,1,[LG] BLACK SAKURA,menu.nm,ARTICULO,test,ARTICULO
+test_16,2,"59,091",menu.price,PRECIO,test,PRECIO
+test_16,3,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_16,4,LONGAN,menu.sub_nm,ARTICULO,test,ARTICULO
+test_16,5,0,menu.sub_price,OTRO,test,CANTIDAD
+test_16,6,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_16,7,ROASTED ALMOND,menu.sub_nm,ARTICULO,test,ARTICULO
+test_16,8,0,menu.sub_price,OTRO,test,CANTIDAD
+test_16,9,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_16,10,IVANGGO,menu.sub_nm,ARTICULO,test,ARTICULO
+test_16,11,0,menu.sub_price,OTRO,test,CANTIDAD
+test_16,12,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_16,13,IVINERAL WATER (bundling) 5k,menu.nm,ARTICULO,test,ARTICULO
+test_16,14,"4,545",menu.price,PRECIO,test,PRECIO
+test_16,15,"Sub Total 63,636",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_16,16,"PB1 (10%) 6,364",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_16,17,Rounding 0,sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_16,18,"Total 70,000",total.total_price,TOTAL,test,TOTAL
+test_16,19,"Cash Payment 100,000",total.cashprice,TOTAL,test,TOTAL
+test_16,20,"Change 30,000",total.changeprice,TOTAL,test,TOTAL
+test_17,0,Rp.,total.total_price,TOTAL,test,OTRO
+test_17,1,Goblin's Mace,menu.nm,ARTICULO,test,ARTICULO
+test_17,2,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_17,3,"25,000",menu.price,PRECIO,test,PRECIO
+test_17,4,Mozarella Hot Dog,menu.nm,ARTICULO,test,ARTICULO
+test_17,5,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_17,6,"38,000",menu.price,PRECIO,test,PRECIO
+test_17,7,Chili Pepper Croquette,menu.nm,ARTICULO,test,ARTICULO
+test_17,8,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_17,9,"14,000",menu.price,PRECIO,test,PRECIO
+test_17,10,Cheese Croquette,menu.nm,ARTICULO,test,ARTICULO
+test_17,11,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_17,12,"14,000",menu.price,PRECIO,test,PRECIO
+test_17,13,Plastik Amook,menu.nm,ARTICULO,test,ARTICULO
+test_17,14,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_17,15,0,menu.price,PRECIO,test,CANTIDAD
+test_17,16,Plastik Putih Take Away,menu.nm,ARTICULO,test,ARTICULO
+test_17,17,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_17,18,0,menu.price,PRECIO,test,CANTIDAD
+test_17,19,"Subtotal 91,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_17,20,Discount (0),sub_total.discount_price,SUBTOTAL,test,SUBTOTAL
+test_17,21,"TOTAL 91,000",total.total_price,TOTAL,test,TOTAL
+test_17,22,"Debit 91,000",total.creditcardprice,TOTAL,test,TOTAL
+test_18,0,Sub Tofal 156000,total.total_price,TOTAL,test,SUBTOTAL
+test_18,1,Kembalian Rp. 0,total.changeprice,TOTAL,test,TOTAL
+test_18,2,Tunai 156000,total.cashprice,TOTAL,test,TOTAL
+test_18,3,Propolis Cair,menu.nm,ARTICULO,test,ARTICULO
+test_18,4,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_18,5,156000,menu.unitprice,PRECIO,test,PRECIO
+test_18,6,156000,menu.price,PRECIO,test,PRECIO
+test_19,0,4,menu.cnt,CANTIDAD,test,CANTIDAD
+test_19,1,AMBUSH DBL CHS,menu.nm,ARTICULO,test,ARTICULO
+test_19,2,60000,menu.price,PRECIO,test,OTRO
+test_19,3,AMOUNT DUE 176000,total.total_price,TOTAL,test,TOTAL
+test_19,4,10,menu.cnt,CANTIDAD,test,CANTIDAD
+test_19,5,AMBUSH CHS BUR,menu.nm,ARTICULO,test,ARTICULO
+test_19,6,100000,menu.price,PRECIO,test,OTRO
+test_19,7,NET SALES 160000,sub_total.subtotal_price,SUBTOTAL,test,ARTICULO
+test_19,8,TAX 16000,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_20,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_20,1,cashew nuts chkn,menu.nm,ARTICULO,test,ARTICULO
+test_20,2,"64,500",menu.price,PRECIO,test,PRECIO
+test_20,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_20,4,garlic pepper beef,menu.nm,ARTICULO,test,ARTICULO
+test_20,5,"79,500",menu.price,PRECIO,test,PRECIO
+test_20,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_20,7,red curry beef,menu.nm,ARTICULO,test,ARTICULO
+test_20,8,"69,500",menu.price,PRECIO,test,PRECIO
+test_20,9,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_20,10,phad thai,menu.nm,ARTICULO,test,ARTICULO
+test_20,11,"64,500",menu.price,PRECIO,test,PRECIO
+test_20,12,4,menu.cnt,CANTIDAD,test,CANTIDAD
+test_20,13,steamed rice,menu.nm,ARTICULO,test,ARTICULO
+test_20,14,"47,600",menu.price,PRECIO,test,PRECIO
+test_20,15,"SUBTOTAL 325,600",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_20,16,"Service chrg 17,908",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_20,17,"10% PB1 34,351",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_20,18,"TOTAL 377,859",total.total_price,TOTAL,test,TOTAL
+test_21,0,Rp,menu.price,PRECIO,test,SUBTOTAL
+test_21,1,Rp,menu.price,PRECIO,test,SUBTOTAL
+test_21,2,Rp,total.total_price,TOTAL,test,SUBTOTAL
+test_21,3,Rp,total.cashprice,TOTAL,test,SUBTOTAL
+test_21,4,Rp,total.changeprice,TOTAL,test,SUBTOTAL
+test_21,5,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_21,6,35.000,menu.unitprice,PRECIO,test,PRECIO
+test_21,7,35.000,menu.price,PRECIO,test,PRECIO
+test_21,8,NASI GOR SFD TLR,menu.nm,ARTICULO,test,ARTICULO
+test_21,9,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_21,10,3.000,menu.unitprice,PRECIO,test,PRECIO
+test_21,11,3.000,menu.price,PRECIO,test,PRECIO
+test_21,12,ES TEH TAWAR,menu.nm,ARTICULO,test,ARTICULO
+test_21,13,***TOTAL 38.000,total.total_price,TOTAL,test,TOTAL
+test_21,14,CASH 50.000,total.cashprice,TOTAL,test,TOTAL
+test_21,15,CHANGE 12.000,total.changeprice,TOTAL,test,TOTAL
+test_22,0,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_22,1,[MD] SOFT STEAMED CHEESEC,menu.nm,ARTICULO,test,ARTICULO
+test_22,2,"20,000",menu.price,PRECIO,test,PRECIO
+test_22,3,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_22,4,[MD] SOFT STEAMED CHOCOCA,menu.nm,ARTICULO,test,ARTICULO
+test_22,5,"20,000",menu.price,PRECIO,test,PRECIO
+test_22,6,"TOTAL 40,000",total.total_price,TOTAL,test,TOTAL
+test_22,7,"CASH 100,000",total.cashprice,TOTAL,test,TOTAL
+test_22,8,"CHANGE 60,000",total.changeprice,TOTAL,test,TOTAL
+test_23,0,6,menu.cnt,CANTIDAD,test,CANTIDAD
+test_23,1,TWIST DONUT,menu.nm,ARTICULO,test,ARTICULO
+test_23,2,"54,000",menu.price,PRECIO,test,PRECIO
+test_23,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_23,4,REDBEAN BREAD,menu.nm,ARTICULO,test,ARTICULO
+test_23,5,"9,000",menu.price,PRECIO,test,PRECIO
+test_23,6,"TOTAL 63,000",total.total_price,TOTAL,test,TOTAL
+test_23,7,"CASH 70,000",total.cashprice,TOTAL,test,TOTAL
+test_23,8,"CHANGE 7,000",total.changeprice,TOTAL,test,TOTAL
+test_24,0,5001-Corn Flakes Cookies,menu.nm,ARTICULO,test,ARTICULO
+test_24,1,Rp.56.000,menu.unitprice,PRECIO,test,PRECIO
+test_24,2,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_24,3,Rp.56.000,menu.price,PRECIO,test,PRECIO
+test_24,4,5003-Chokoreto Cookies,menu.nm,ARTICULO,test,ARTICULO
+test_24,5,Rp.62.000,menu.unitprice,PRECIO,test,PRECIO
+test_24,6,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_24,7,Rp.62.000,menu.price,PRECIO,test,PRECIO
+test_24,8,6002-Plastic Bag Medium,menu.nm,ARTICULO,test,ARTICULO
+test_24,9,Rp.0,menu.unitprice,PRECIO,test,PRECIO
+test_24,10,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_24,11,Rp.0,menu.price,PRECIO,test,PRECIO
+test_24,12,"Total, Rp.118.000",total.total_price,TOTAL,test,TOTAL
+test_24,13,Total Item: 3,total.menuqty_cnt,TOTAL,test,TOTAL
+test_24,14,Debet Card 118.000,total.creditcardprice,TOTAL,test,TOTAL
+test_25,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_25,1,TWIST STRAWBERRY DONUT,menu.nm,ARTICULO,test,ARTICULO
+test_25,2,"10,000",menu.price,PRECIO,test,PRECIO
+test_25,3,"TOTAL 43,000",total.total_price,TOTAL,test,TOTAL
+test_25,4,"CASH 50,000",total.cashprice,TOTAL,test,TOTAL
+test_25,5,"CHANGE 7,000",total.changeprice,TOTAL,test,TOTAL
+test_25,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_25,7,TLJ CROQUETTE,menu.nm,ARTICULO,test,ARTICULO
+test_25,8,"17,000",menu.price,PRECIO,test,PRECIO
+test_25,9,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_25,10,POTATO PEPPER BAGEL,menu.nm,ARTICULO,test,ARTICULO
+test_25,11,"16,000",menu.price,PRECIO,test,PRECIO
+test_26,0,Rp,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_26,1,Rp,total.total_price,TOTAL,test,SUBTOTAL
+test_26,2,Rp,total.cashprice,TOTAL,test,SUBTOTAL
+test_26,3,Rp,total.changeprice,TOTAL,test,SUBTOTAL
+test_26,4,Nasi Cap Cay Porsi B esar,menu.nm,ARTICULO,test,ARTICULO
+test_26,5,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_26,6,65.000,menu.unitprice,PRECIO,test,PRECIO
+test_26,7,65.000,menu.price,PRECIO,test,PRECIO
+test_26,8,Cap Cay,menu.etc,OTRO,test,OTRO
+test_26,9,Teh Tawar,menu.nm,ARTICULO,test,ARTICULO
+test_26,10,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_26,11,4.000,menu.unitprice,PRECIO,test,PRECIO
+test_26,12,Minuman,menu.etc,OTRO,test,ARTICULO
+test_26,13,Fu Yung Hai,menu.nm,ARTICULO,test,ARTICULO
+test_26,14,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_26,15,65.000,menu.unitprice,PRECIO,test,PRECIO
+test_26,16,65.000,menu.price,PRECIO,test,PRECIO
+test_26,17,Lain-lain,menu.etc,OTRO,test,ARTICULO
+test_26,18,Subtotal 138.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_26,19,Total 138.000,total.total_price,TOTAL,test,TOTAL
+test_26,20,Cash 138.000,total.cashprice,TOTAL,test,TOTAL
+test_26,21,Change 0,total.changeprice,TOTAL,test,TOTAL
+test_27,0,PKT AYAM,menu.nm,ARTICULO,test,ARTICULO
+test_27,1,"33,000",menu.price,PRECIO,test,PRECIO
+test_27,2,"TOTAL 61,600",total.total_price,TOTAL,test,TOTAL
+test_27,3,"CHARGE5 61,600",total.cashprice,TOTAL,test,SUBTOTAL
+test_27,4,2.00 ITEMS,total.menuqty_cnt,TOTAL,test,TOTAL
+test_27,5,GULAI OTAK,menu.nm,ARTICULO,test,ARTICULO
+test_27,6,"23,000",menu.price,PRECIO,test,PRECIO
+test_27,7,"SUBTOTAL 56,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_27,8,"TAX 10% 5,600",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_28,0,SAMGYOPSAL,menu.nm,ARTICULO,test,ARTICULO
+test_28,1,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_28,2,"194,000",menu.price,PRECIO,test,OTRO
+test_28,3,SUL LUNG TANG,menu.nm,ARTICULO,test,ARTICULO
+test_28,4,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_28,5,"75,000",menu.price,PRECIO,test,PRECIO
+test_28,6,MAKOLI,menu.nm,ARTICULO,test,ARTICULO
+test_28,7,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_28,8,"100,000",menu.price,PRECIO,test,PRECIO
+test_28,9,"Sub Total 369,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_28,10,"Service 18,450",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_28,11,"VAT 38,745",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_28,12,Discount 0,sub_total.discount_price,SUBTOTAL,test,SUBTOTAL
+test_28,13,"TOTAL 426,195",total.total_price,TOTAL,test,TOTAL
+test_29,0,COLD OCHA,menu.nm,ARTICULO,test,ARTICULO
+test_29,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_29,2,"10,909",menu.price,PRECIO,test,PRECIO
+test_29,3,BCA PROMO,menu.nm,ARTICULO,test,ARTICULO
+test_29,4,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_29,5,"54,455",menu.price,PRECIO,test,PRECIO
+test_29,6,ABURA UDON SPICY,menu.sub_nm,ARTICULO,test,ARTICULO
+test_29,7,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_29,8,0,menu.sub_price,OTRO,test,CANTIDAD
+test_29,9,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_29,10,:-KAKE UDON,menu.sub_nm,ARTICULO,test,ARTICULO
+test_29,11,0,menu.sub_price,OTRO,test,CANTIDAD
+test_29,12,SKEWERED SHUMAI,menu.nm,ARTICULO,test,ARTICULO
+test_29,13,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_29,14,"12,727",menu.price,PRECIO,test,PRECIO
+test_29,15,SKEWERED TOFU ROLL,menu.nm,ARTICULO,test,ARTICULO
+test_29,16,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_29,17,"12,727",menu.price,PRECIO,test,PRECIO
+test_29,18,EBI TEMPURA,menu.nm,ARTICULO,test,ARTICULO
+test_29,19,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_29,20,"13,636",menu.price,PRECIO,test,PRECIO
+test_29,21,KITSUNE UDON (KIDS),menu.nm,ARTICULO,test,ARTICULO
+test_29,22,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_29,23,"28,182",menu.price,PRECIO,test,PRECIO
+test_29,24,"SUB, TOTAL 132,636",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_29,25,"RESTAURANT TAX 13,264",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_29,26,"GRAND TOTAL 145,900",total.total_price,TOTAL,test,TOTAL
+test_29,27,"~ BCA EDC [145,900]",total.creditcardprice,TOTAL,test,TOTAL
+test_30,0,Kupon 3,menu.nm,ARTICULO,test,ARTICULO
+test_30,1,"28,636",menu.price,PRECIO,test,PRECIO
+test_30,2,"Subtotal 28,636",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_30,3,"PB1 (10%) 2,864",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_30,4,"Dine In Total 31,500",total.total_price,TOTAL,test,TOTAL
+test_30,5,"Cash 50,000",total.cashprice,TOTAL,test,TOTAL
+test_30,6,"Change 18,500",total.changeprice,TOTAL,test,TOTAL
+test_31,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_31,1,SALMON PESTO,menu.nm,ARTICULO,test,ARTICULO
+test_31,2,"85,500",menu.price,PRECIO,test,PRECIO
+test_31,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_31,4,SALMON PESTO,menu.nm,ARTICULO,test,ARTICULO
+test_31,5,"85,500",menu.price,PRECIO,test,PRECIO
+test_31,6,"Disc -100% (ITM06) -85,500",menu.discountprice,OTRO,test,OTRO
+test_31,7,"SUBTTL 85,500",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_31,8,"SVC CHG 6% 10,260",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_31,9,"PB1 10% 18,126",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_31,10,"TOTAL 113,886",total.total_price,TOTAL,test,TOTAL
+test_32,0,GRANDTOTAL 24.000,total.total_price,TOTAL,test,TOTAL
+test_32,1,CASH 50.000,total.cashprice,TOTAL,test,TOTAL
+test_32,2,CHANGED 26.000,total.changeprice,TOTAL,test,TOTAL
+test_32,3,SUB-TOTAL 24.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_32,4,THAI ICED GREEN TEA,menu.nm,ARTICULO,test,ARTICULO
+test_32,5,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_32,6,@24.000,menu.unitprice,PRECIO,test,PRECIO
+test_32,7,24.000,menu.price,PRECIO,test,PRECIO
+test_33,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_33,1,GRILLED BABY POTATO (R,menu.nm,ARTICULO,test,ARTICULO
+test_33,2,"50,500",menu.price,PRECIO,test,PRECIO
+test_33,3,"SUBTTL 117,500",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_33,4,"SVC CHG 6% 11,070",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_33,5,"PB1 10% 19,557",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_33,6,"TOTAL 148,127",total.total_price,TOTAL,test,TOTAL
+test_33,7,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_33,8,HOT TUNA,menu.nm,ARTICULO,test,ARTICULO
+test_33,9,"67,000",menu.price,PRECIO,test,PRECIO
+test_33,10,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_33,11,HOT TUNA,menu.nm,ARTICULO,test,ARTICULO
+test_33,12,"67,000",menu.price,PRECIO,test,PRECIO
+test_33,13,"Disc -100% (ITM06) -67,000",menu.discountprice,OTRO,test,OTRO
+test_34,0,Ash Chick Sambal Matah,menu.nm,ARTICULO,test,ARTICULO
+test_34,1,5,menu.cnt,CANTIDAD,test,CANTIDAD
+test_34,2,75.000,menu.price,PRECIO,test,PRECIO
+test_34,3,Jamur Goreng,menu.nm,ARTICULO,test,ARTICULO
+test_34,4,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_34,5,10.000,menu.price,PRECIO,test,PRECIO
+test_34,6,Subtotal 85.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_34,7,Pajak (10%) 8.500,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_34,8,Total 93.500,total.total_price,TOTAL,test,TOTAL
+test_34,9,Tunai 100.000,total.cashprice,TOTAL,test,TOTAL
+test_34,10,Kembali 6.500,total.changeprice,TOTAL,test,TOTAL
+test_35,0,"TOTAL 54,000",total.total_price,TOTAL,test,TOTAL
+test_35,1,"CASH 104,000",total.cashprice,TOTAL,test,TOTAL
+test_35,2,"CHANGE 50,000",total.changeprice,TOTAL,test,TOTAL
+test_35,3,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_35,4,TWIST DONUT,menu.nm,ARTICULO,test,ARTICULO
+test_35,5,"18,000",menu.price,PRECIO,test,PRECIO
+test_35,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_35,7,BANANA DONUT,menu.nm,ARTICULO,test,ARTICULO
+test_35,8,"11,000",menu.price,PRECIO,test,PRECIO
+test_35,9,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_35,10,CREAMCHEESE BREAD,menu.nm,ARTICULO,test,ARTICULO
+test_35,11,"13,000",menu.price,PRECIO,test,PRECIO
+test_35,12,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_35,13,FRANKFRUT SAUSAGE ROLL,menu.nm,ARTICULO,test,ARTICULO
+test_35,14,"12,000",menu.price,PRECIO,test,PRECIO
+test_36,0,"Total 40,000",total.total_price,TOTAL,test,TOTAL
+test_36,1,"Cash 100,000 Pay",total.cashprice,TOTAL,test,TOTAL
+test_36,2,"Change : 60,000",total.changeprice,TOTAL,test,TOTAL
+test_36,3,ITEMS: 1,total.menuqty_cnt,TOTAL,test,TOTAL
+test_36,4,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_36,5,XXL Crispy Chicken,menu.nm,ARTICULO,test,ARTICULO
+test_36,6,"40,000",menu.price,PRECIO,test,PRECIO
+test_36,7,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_36,8,- Sedang,menu.sub_nm,ARTICULO,test,ARTICULO
+test_36,9,0,menu.sub_price,OTRO,test,CANTIDAD
+test_36,10,"40,000",sub_total.subtotal_price,SUBTOTAL,test,PRECIO
+test_37,0,Popcorn Salt (S),menu.nm,ARTICULO,test,ARTICULO
+test_37,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_37,2,20.000,menu.price,PRECIO,test,PRECIO
+test_37,3,TOTAL 20.000,total.total_etc,TOTAL,test,TOTAL
+test_37,4,CASH 50.000,total.cashprice,TOTAL,test,TOTAL
+test_37,5,CHANGED 30.000,total.changeprice,TOTAL,test,TOTAL
+test_38,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_38,1,XLB Org Pork 10x,menu.nm,ARTICULO,test,ARTICULO
+test_38,2,"78,000",menu.price,PRECIO,test,PRECIO
+test_38,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_38,4,Sicito Babi,menu.nm,ARTICULO,test,ARTICULO
+test_38,5,"65,000",menu.price,PRECIO,test,PRECIO
+test_38,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_38,7,Hotplate Tahu,menu.nm,ARTICULO,test,ARTICULO
+test_38,8,"58,000",menu.price,PRECIO,test,PRECIO
+test_38,9,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_38,10,DF Fish Fillet Garlc,menu.nm,ARTICULO,test,ARTICULO
+test_38,11,"108,000",menu.price,PRECIO,test,PRECIO
+test_38,12,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_38,13,LM Pork Belly,menu.nm,ARTICULO,test,ARTICULO
+test_38,14,"88,000",menu.price,PRECIO,test,PRECIO
+test_38,15,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_38,16,Siew Mai,menu.nm,ARTICULO,test,ARTICULO
+test_38,17,"38,800",menu.price,PRECIO,test,PRECIO
+test_38,18,5,menu.cnt,CANTIDAD,test,CANTIDAD
+test_38,19,Kwan Yin Cup,menu.nm,ARTICULO,test,ARTICULO
+test_38,20,"50,000",menu.price,PRECIO,test,PRECIO
+test_38,21,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_38,22,Herbal Jelly,menu.nm,ARTICULO,test,ARTICULO
+test_38,23,"38,000",menu.price,PRECIO,test,PRECIO
+test_38,24,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_38,25,Onde-Onde,menu.nm,ARTICULO,test,ARTICULO
+test_38,26,"38,000",menu.price,PRECIO,test,PRECIO
+test_38,27,"561,800",sub_total.subtotal_price,SUBTOTAL,test,PRECIO
+test_38,28,"Service charge 42,135",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_38,29,"PB1 60,394",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_38,30,"Total 664,329",total.total_price,TOTAL,test,TOTAL
+test_38,31,ITEMS: 13,total.menuqty_cnt,TOTAL,test,TOTAL
+test_39,0,HPL754DR,menu.num,OTRO,test,CANTIDAD
+test_39,1,LUNCH BOX 3P SET W/RED BAG & SP00 N.,menu.nm,ARTICULO,test,ARTICULO
+test_39,2,8 PCS,menu.cnt,CANTIDAD,test,CANTIDAD
+test_39,3,"243,000",menu.unitprice,PRECIO,test,PRECIO
+test_39,4,"1,944,000",menu.price,PRECIO,test,PRECIO
+test_39,5,DISKON: (20%),menu.discountprice,OTRO,test,SUBTOTAL
+test_39,6,"1,555,200",menu.itemsubtotal,PRECIO,test,PRECIO
+test_39,7,HPL500,menu.num,OTRO,test,PRECIO
+test_39,8,RICE CASE 7L W/CUP,menu.nm,ARTICULO,test,ARTICULO
+test_39,9,5 PCS,menu.cnt,CANTIDAD,test,CANTIDAD
+test_39,10,"195,000",menu.unitprice,PRECIO,test,PRECIO
+test_39,11,"975,000",menu.price,PRECIO,test,PRECIO
+test_39,12,DISKON: (20%),menu.discountprice,OTRO,test,SUBTOTAL
+test_39,13,"780,000",menu.itemsubtotal,PRECIO,test,PRECIO
+test_39,14,HPL754DB,menu.num,OTRO,test,CANTIDAD
+test_39,15,LUNCH BOX 3P SET W/BLACK BAG & SP OON,menu.nm,ARTICULO,test,ARTICULO
+test_39,16,4 PCS,menu.cnt,CANTIDAD,test,CANTIDAD
+test_39,17,"243,000",menu.unitprice,PRECIO,test,PRECIO
+test_39,18,"972,000",menu.price,PRECIO,test,PRECIO
+test_39,19,DISKON: (20%),menu.discountprice,OTRO,test,SUBTOTAL
+test_39,20,"777,600",menu.itemsubtotal,PRECIO,test,PRECIO
+test_39,21,TOTAL ITEM 3,total.menutype_cnt,TOTAL,test,TOTAL
+test_39,22,TOTAL QTY 17,total.menuqty_cnt,TOTAL,test,TOTAL
+test_39,23,"BAYAR CREDIT CARD 3,112,800",total.creditcardprice,TOTAL,test,TOTAL
+test_40,0,Snack Lestari All,menu.nm,ARTICULO,test,ARTICULO
+test_40,1,"27,000",menu.unitprice,PRECIO,test,PRECIO
+test_40,2,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_40,3,"54,000",menu.price,PRECIO,test,PRECIO
+test_40,4,"Bakery Aneka Sisir Banana,Pizza,yoko,Mar mer,Daging,abon,keju,cokelat,dll",menu.nm,ARTICULO,test,ARTICULO
+test_40,5,"7,000",menu.unitprice,PRECIO,test,PRECIO
+test_40,6,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_40,7,"14,000",menu.price,PRECIO,test,PRECIO
+test_40,8,"TOTAL 68,000",total.total_price,TOTAL,test,TOTAL
+test_40,9,"CASH 100,000",total.cashprice,TOTAL,test,TOTAL
+test_40,10,"CHANGE 32,000",total.changeprice,TOTAL,test,TOTAL
+test_41,0,Chicken Maryland,menu.nm,ARTICULO,test,ARTICULO
+test_41,1,47619.00,menu.price,PRECIO,test,PRECIO
+test_41,2,Cappucino (Hot/Iced),menu.nm,ARTICULO,test,ARTICULO
+test_41,3,30303.00,menu.price,PRECIO,test,OTRO
+test_41,4,Naga Lychee Juice,menu.nm,ARTICULO,test,ARTICULO
+test_41,5,34632.00,menu.price,PRECIO,test,PRECIO
+test_41,6,Cafe Latte,menu.nm,ARTICULO,test,ARTICULO
+test_41,7,30303.00,menu.price,PRECIO,test,OTRO
+test_41,8,Hot Chocolate Marshmallo,menu.nm,ARTICULO,test,ARTICULO
+test_41,9,30303.00,menu.price,PRECIO,test,OTRO
+test_41,10,Chicken Cesar Salad,menu.nm,ARTICULO,test,ARTICULO
+test_41,11,43290.00,menu.price,PRECIO,test,PRECIO
+test_41,12,Mineral Water,menu.nm,ARTICULO,test,ARTICULO
+test_41,13,12987.00,menu.price,PRECIO,test,PRECIO
+test_41,14,Mineral Water,menu.nm,ARTICULO,test,ARTICULO
+test_41,15,12987.00,menu.price,PRECIO,test,PRECIO
+test_41,16,Lychee/Peach/Lemon/Mango,menu.nm,ARTICULO,test,ARTICULO
+test_41,17,25974.00,menu.price,PRECIO,test,OTRO
+test_41,18,Chicken Maryland,menu.nm,ARTICULO,test,ARTICULO
+test_41,19,47619.00,menu.price,PRECIO,test,PRECIO
+test_41,20,Subtotal 316017.00,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_41,21,Service Charge 5% + 48982.68,sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_41,22,TOTAL 365000.00,total.total_price,TOTAL,test,TOTAL
+test_42,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_42,1,Chicken HCC. 1Pcs,menu.nm,ARTICULO,test,ARTICULO
+test_42,2,15.000,menu.price,PRECIO,test,PRECIO
+test_42,3,"Sub Total 15,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_42,4,"P.Rest 10 % 1,500",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_42,5,"Total 16,500",total.total_price,TOTAL,test,TOTAL
+test_42,6,"Cash 50,000",total.cashprice,TOTAL,test,TOTAL
+test_42,7,"Kembali 33,500",total.changeprice,TOTAL,test,TOTAL
+test_42,8,"1 Items,",total.menuqty_cnt,TOTAL,test,TOTAL
+test_43,0,Rp,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_43,1,Rp,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_43,2,Rp,total.total_price,TOTAL,test,SUBTOTAL
+test_43,3,Rp,total.cashprice,TOTAL,test,SUBTOTAL
+test_43,4,Rp,total.changeprice,TOTAL,test,SUBTOTAL
+test_43,5,6 Pcs,menu.cnt,CANTIDAD,test,CANTIDAD
+test_43,6,Cheese Tart,menu.nm,ARTICULO,test,ARTICULO
+test_43,7,165000.00,menu.price,PRECIO,test,PRECIO
+test_43,8,Box of 6,menu.sub_nm,ARTICULO,test,ARTICULO
+test_43,9,PP Carrier,menu.sub_nm,ARTICULO,test,ARTICULO
+test_43,10,Subtotal: 165000.00,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_43,11,Total Tax Included: 15000.00,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_43,12,Total: 165000.00,total.total_price,TOTAL,test,TOTAL
+test_43,13,Customer Paid Cash: 200000.00,total.cashprice,TOTAL,test,TOTAL
+test_43,14,Customer Change: 35000.00,total.changeprice,TOTAL,test,TOTAL
+test_44,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_44,1,Combo 1,menu.nm,ARTICULO,test,ARTICULO
+test_44,2,30.000,menu.price,PRECIO,test,PRECIO
+test_44,3,TOTAL 30.000,total.total_price,TOTAL,test,TOTAL
+test_44,4,CASH 50.000,total.cashprice,TOTAL,test,TOTAL
+test_44,5,CHANGED 20.000,total.changeprice,TOTAL,test,TOTAL
+test_45,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_45,1,Lemon Tea (L).,menu.nm,ARTICULO,test,ARTICULO
+test_45,2,25.000,menu.price,PRECIO,test,PRECIO
+test_45,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_45,4,Mike & Ike Original,menu.nm,ARTICULO,test,ARTICULO
+test_45,5,28.000,menu.price,PRECIO,test,PRECIO
+test_45,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_45,7,Mike & Berry,menu.nm,ARTICULO,test,ARTICULO
+test_45,8,28.000,menu.price,PRECIO,test,PRECIO
+test_45,9,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_45,10,Roti Keju Manis.,menu.nm,ARTICULO,test,ARTICULO
+test_45,11,7.000,menu.price,PRECIO,test,PRECIO
+test_45,12,"TOTAL 88,000",total.total_price,TOTAL,test,TOTAL
+test_45,13,CASH 88.000,total.cashprice,TOTAL,test,TOTAL
+test_45,14,0 CHANGED,total.changeprice,TOTAL,test,TOTAL
+test_46,0,1X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_46,1,S-Bubble Milk Tea,menu.nm,ARTICULO,test,ARTICULO
+test_46,2,100%,menu.sub_nm,ARTICULO,test,OTRO
+test_46,3,"@20,000",menu.unitprice,PRECIO,test,PRECIO
+test_46,4,"20,000",menu.price,PRECIO,test,PRECIO
+test_46,5,1X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_46,6,S-Caramel Milk Tea,menu.nm,ARTICULO,test,ARTICULO
+test_46,7,100%,menu.sub_nm,ARTICULO,test,OTRO
+test_46,8,"@20,000",menu.unitprice,PRECIO,test,PRECIO
+test_46,9,"20,000",menu.price,PRECIO,test,PRECIO
+test_46,10,"Total: 40,000",total.total_price,TOTAL,test,TOTAL
+test_46,11,"Cash: 40,000",total.cashprice,TOTAL,test,TOTAL
+test_46,12,CHANGE 0,total.changeprice,TOTAL,test,TOTAL
+test_47,0,COPIA 1 /GB,menu.nm,ARTICULO,test,ARTICULO
+test_47,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_47,2,"45,000.00",menu.unitprice,PRECIO,test,PRECIO
+test_47,3,2100252000358,menu.num,OTRO,test,OTRO
+test_47,4,"45,000.00",menu.price,PRECIO,test,PRECIO
+test_47,5,PLASTIC BAG RED CENTRAL SI,menu.nm,ARTICULO,test,ARTICULO
+test_47,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_47,7,0.00,menu.unitprice,PRECIO,test,PRECIO
+test_47,8,9100544260074,menu.num,OTRO,test,PRECIO
+test_47,9,0.00,menu.price,PRECIO,test,PRECIO
+test_47,10,COPIA 1 /GB,menu.nm,ARTICULO,test,ARTICULO
+test_47,11,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_47,12,"18,000.00",menu.unitprice,PRECIO,test,PRECIO
+test_47,13,2100252000358,menu.num,OTRO,test,OTRO
+test_47,14,"18,000.00",menu.price,PRECIO,test,PRECIO
+test_47,15,"Total 63,000.00",total.total_price,TOTAL,test,TOTAL
+test_47,16,Total quantity 3,total.menuqty_cnt,TOTAL,test,TOTAL
+test_47,17,"Card Payment DEBIT CARD 63,000.00",total.creditcardprice,TOTAL,test,TOTAL
+test_47,18,Total discount 0.00,sub_total.discount_price,SUBTOTAL,test,SUBTOTAL
+test_48,0,"Subtotal: 22,728",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_48,1,"PB1: 2,272",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_48,2,1X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_48,3,S-Hazelnut KOI Cafe,menu.nm,ARTICULO,test,ARTICULO
+test_48,4,"25,000",menu.price,PRECIO,test,PRECIO
+test_48,5,"@25,000",menu.unitprice,PRECIO,test,PRECIO
+test_48,6,25%,menu.sub_nm,ARTICULO,test,OTRO
+test_48,7,Less Ice,menu.sub_nm,ARTICULO,test,ARTICULO
+test_48,8,"Total: 25,000",total.total_price,TOTAL,test,TOTAL
+test_48,9,"Cash: 100,000",total.cashprice,TOTAL,test,TOTAL
+test_48,10,"CHANGE: 75,000",total.changeprice,TOTAL,test,TOTAL
+test_49,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_49,1,Ptgs Eggtart,menu.nm,ARTICULO,test,ARTICULO
+test_49,2,"12,000",menu.price,PRECIO,test,PRECIO
+test_49,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_49,4,Choco Melt,menu.nm,ARTICULO,test,ARTICULO
+test_49,5,"11,000",menu.price,PRECIO,test,PRECIO
+test_49,6,"SUBTOTAL 23,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_49,7,"DUE 23,000",total.total_price,TOTAL,test,TOTAL
+test_49,8,"CASH 50,000",total.cashprice,TOTAL,test,TOTAL
+test_49,9,"CHANGE 27,000",total.changeprice,TOTAL,test,TOTAL
+test_49,10,TOTAL QTY 2 PCS,total.menuqty_cnt,TOTAL,test,TOTAL
+test_49,11,2 ITEM,total.menutype_cnt,TOTAL,test,TOTAL
+test_50,0,"Total: 19,500",total.total_price,TOTAL,test,TOTAL
+test_50,1,"Lash: 100,000",total.cashprice,TOTAL,test,TOTAL
+test_50,2,"Change: 80,500",total.changeprice,TOTAL,test,TOTAL
+test_50,3,"SubTulal: 17,727",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_50,4,"PB1: 1,773",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_50,5,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_50,6,Superice Cauburry,menu.nm,ARTICULO,test,ARTICULO
+test_50,7,"17,727",menu.price,PRECIO,test,PRECIO
+test_51,0,"Rounding 334,011",sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_51,1,"Total 334,000",total.total_price,TOTAL,test,TOTAL
+test_51,2,"DEBIT BCA 334,000",total.creditcardprice,TOTAL,test,TOTAL
+test_51,3,ITEMS: 8,total.menuqty_cnt,TOTAL,test,TOTAL
+test_51,4,Rounding -11,total.total_etc,TOTAL,test,SUBTOTAL
+test_51,5,"303,646",sub_total.subtotal_price,SUBTOTAL,test,OTRO
+test_51,6,"Pb1 10% 30,365",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_51,7,(TA) NASI GRG TERI MEDAN,menu.nm,ARTICULO,test,ARTICULO
+test_51,8,4,menu.cnt,CANTIDAD,test,CANTIDAD
+test_51,9,"165,460",menu.price,PRECIO,test,PRECIO
+test_51,10,(TA) BIHUN GORENG SEAFOOD,menu.nm,ARTICULO,test,ARTICULO
+test_51,11,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_51,12,"40,456",menu.price,PRECIO,test,PRECIO
+test_51,13,(TA) KWETIAW SEAFOOD SIRAM,menu.nm,ARTICULO,test,ARTICULO
+test_51,14,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_51,15,"42,274",menu.price,PRECIO,test,PRECIO
+test_51,16,(TA) NASI GORENG,menu.nm,ARTICULO,test,ARTICULO
+test_51,17,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_51,18,"55,456",menu.price,PRECIO,test,PRECIO
+test_52,0,THAI ICED TEA,menu.nm,ARTICULO,test,ARTICULO
+test_52,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_52,2,@20.000,menu.unitprice,PRECIO,test,PRECIO
+test_52,3,20.000,menu.price,PRECIO,test,PRECIO
+test_52,4,THAI ICED TEA,menu.nm,ARTICULO,test,ARTICULO
+test_52,5,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_52,6,@20.000,menu.unitprice,PRECIO,test,PRECIO
+test_52,7,20.000,menu.price,PRECIO,test,PRECIO
+test_52,8,SUB-TOTAL 40.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_52,9,GRANDTOTAL 40.000,total.total_price,TOTAL,test,TOTAL
+test_52,10,CASH 100.000,total.cashprice,TOTAL,test,TOTAL
+test_52,11,CHANGED 60.000,total.changeprice,TOTAL,test,TOTAL
+test_53,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_53,1,Pecel Komplit + Nasi,menu.nm,ARTICULO,test,ARTICULO
+test_53,2,42.000,menu.price,PRECIO,test,PRECIO
+test_53,3,Subtotal 107.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_53,4,Servi Charge 57 5.350,sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_53,5,Pajak Rest 10% 11.235,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_53,6,Total 123.585,total.total_price,TOTAL,test,TOTAL
+test_53,7,4,total.menuqty_cnt,TOTAL,test,CANTIDAD
+test_53,8,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_53,9,SOTO KUDUS,menu.nm,ARTICULO,test,ARTICULO
+test_53,10,47.000,menu.price,PRECIO,test,PRECIO
+test_53,11,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_53,12,Mineral Water,menu.nm,ARTICULO,test,ARTICULO
+test_53,13,18.000,menu.price,PRECIO,test,PRECIO
+test_54,0,KACANG MERAH,menu.nm,ARTICULO,test,ARTICULO
+test_54,1,"10,000",menu.price,PRECIO,test,PRECIO
+test_54,2,"SUBTOTAL 10,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_54,3,"TOTAL 10,000",total.total_price,TOTAL,test,TOTAL
+test_54,4,"CASH 10,000",total.cashprice,TOTAL,test,TOTAL
+test_55,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_55,1,APPLE CINNAMON PASTRY,menu.nm,ARTICULO,test,ARTICULO
+test_55,2,"22,000",menu.price,PRECIO,test,PRECIO
+test_55,3,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_55,4,ROYAL CHEESE TART,menu.nm,ARTICULO,test,ARTICULO
+test_55,5,"32,000",menu.price,PRECIO,test,PRECIO
+test_55,6,"TOTAL 54,000",total.total_price,TOTAL,test,TOTAL
+test_55,7,"CARD 54,000",total.creditcardprice,TOTAL,test,TOTAL
+test_56,0,AIR MINERAL,menu.nm,ARTICULO,test,ARTICULO
+test_56,1,"8,181",menu.price,PRECIO,test,PRECIO
+test_56,2,"SUBTOTAL 8,181",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_56,3,TAX 818,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_56,4,"TL 8,999",total.total_price,TOTAL,test,TOTAL
+test_56,5,"CASH 10,000",total.cashprice,TOTAL,test,TOTAL
+test_56,6,"CG 1,001",total.changeprice,TOTAL,test,OTRO
+test_57,0,ICED TT,menu.nm,ARTICULO,test,ARTICULO
+test_57,1,"20,000",menu.price,PRECIO,test,PRECIO
+test_57,2,ICED GT,menu.nm,ARTICULO,test,ARTICULO
+test_57,3,"22,000",menu.price,PRECIO,test,PRECIO
+test_57,4,"CASH 42,000",total.cashprice,TOTAL,test,TOTAL
+test_58,0,"Pay: 100,000",total.cashprice,TOTAL,test,TOTAL
+test_58,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_58,2,PHO BO TAI,menu.nm,ARTICULO,test,ARTICULO
+test_58,3,"55,000",menu.price,PRECIO,test,PRECIO
+test_58,4,"Sub Total: 55,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_58,5,"PB1 5,500",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_58,6,"Total: 60,500",total.total_price,TOTAL,test,TOTAL
+test_58,7,"CASH 100,000",total.cashprice,TOTAL,test,TOTAL
+test_58,8,"Change Due: 39,500",total.changeprice,TOTAL,test,TOTAL
+test_59,0,Tahu Isi,menu.nm,ARTICULO,test,ARTICULO
+test_59,1,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_59,2,"78,000",menu.price,PRECIO,test,PRECIO
+test_59,3,Tea,menu.nm,ARTICULO,test,ARTICULO
+test_59,4,5,menu.cnt,CANTIDAD,test,CANTIDAD
+test_59,5,"30,000",menu.price,PRECIO,test,PRECIO
+test_59,6,Kepiting 7-8.4ons - Chilly 0.7 1,menu.nm,ARTICULO,test,ARTICULO
+test_59,7,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_59,8,"297,490",menu.price,PRECIO,test,PRECIO
+test_59,9,Udang Telur Asin - Regular,menu.nm,ARTICULO,test,ARTICULO
+test_59,10,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_59,11,"47,500",menu.price,PRECIO,test,PRECIO
+test_59,12,Kailan 2 Rasa,menu.nm,ARTICULO,test,ARTICULO
+test_59,13,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_59,14,"45,000",menu.price,PRECIO,test,PRECIO
+test_59,15,Mantau - 2 pcs,menu.nm,ARTICULO,test,TOTAL
+test_59,16,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_59,17,"25,000",menu.price,PRECIO,test,PRECIO
+test_59,18,Sweet Tea,menu.nm,ARTICULO,test,ARTICULO
+test_59,19,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_59,20,"16,000",menu.price,PRECIO,test,PRECIO
+test_59,21,Nasi Putih,menu.nm,ARTICULO,test,ARTICULO
+test_59,22,7,menu.cnt,CANTIDAD,test,CANTIDAD
+test_59,23,"42,000",menu.price,PRECIO,test,PRECIO
+test_59,24,Mantau - 3 pcs,menu.nm,ARTICULO,test,ARTICULO
+test_59,25,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_59,26,"37,500",menu.price,PRECIO,test,PRECIO
+test_59,27,"Subtotal 618,490",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_59,28,"Tax 61,849",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_59,29,"Total 680,500",total.total_price,TOTAL,test,TOTAL
+test_59,30,Total Item 9,total.menutype_cnt,TOTAL,test,TOTAL
+test_59,31,Total Qty 21,total.menuqty_cnt,TOTAL,test,TOTAL
+test_60,0,Topping Milo Sparkle (untuk 1 Po rsi),menu.nm,ARTICULO,test,ARTICULO
+test_60,1,1x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_60,2,1.250,menu.unitprice,PRECIO,test,OTRO
+test_60,3,1.250,menu.price,PRECIO,test,OTRO
+test_60,4,Bola Ubi Mini Original (14 Pcs ),menu.nm,ARTICULO,test,ARTICULO
+test_60,5,2x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_60,6,12.500,menu.unitprice,PRECIO,test,PRECIO
+test_60,7,25.000,menu.price,PRECIO,test,PRECIO
+test_60,8,Subtotal 26.250,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_60,9,Pajak -,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_60,10,Total 26.250,total.total_price,TOTAL,test,TOTAL
+test_60,11,Pembayaran GO-PAY,total.emoneyprice,TOTAL,test,TOTAL
+test_61,0,1x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_61,1,6500,menu.unitprice,PRECIO,test,PRECIO
+test_61,2,TALAM UNGU,menu.nm,ARTICULO,test,ARTICULO
+test_61,3,"6,500",menu.price,PRECIO,test,PRECIO
+test_61,4,DISC ITEM -40.000% AMOUNT -2 600,menu.discountprice,OTRO,test,OTRO
+test_61,5,1X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_61,6,8000,menu.unitprice,PRECIO,test,PRECIO
+test_61,7,AREM - AREM,menu.nm,ARTICULO,test,OTRO
+test_61,8,"8,000",menu.price,PRECIO,test,PRECIO
+test_61,9,"DISC ITEM -40.000% AMOUNT -3,200",menu.discountprice,OTRO,test,OTRO
+test_61,10,2X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_61,11,9000,menu.unitprice,PRECIO,test,PRECIO
+test_61,12,LEMPER,menu.nm,ARTICULO,test,ARTICULO
+test_61,13,"18,000",menu.price,PRECIO,test,PRECIO
+test_61,14,DISC ITEM -40.000% AMOUNT -7.200,menu.discountprice,OTRO,test,OTRO
+test_61,15,1X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_61,16,0,menu.unitprice,PRECIO,test,CANTIDAD
+test_61,17,MIKA SEDANG,menu.nm,ARTICULO,test,ARTICULO
+test_61,18,0,menu.price,PRECIO,test,CANTIDAD
+test_61,19,1X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_61,20,0,menu.unitprice,PRECIO,test,CANTIDAD
+test_61,21,PLASTIK KECIL,menu.nm,ARTICULO,test,ARTICULO
+test_61,22,0,menu.price,PRECIO,test,CANTIDAD
+test_61,23,1X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_61,24,5000,menu.unitprice,PRECIO,test,PRECIO
+test_61,25,TEH KOTAK,menu.nm,ARTICULO,test,ARTICULO
+test_61,26,"5,000",menu.price,PRECIO,test,PRECIO
+test_61,27,"SUBTOTAL 24,500",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_61,28,7.00 ITEMs,total.menuqty_cnt,TOTAL,test,TOTAL
+test_61,29,"TOTAL 24,500",total.total_price,TOTAL,test,TOTAL
+test_61,30,"CARD 24,500",total.creditcardprice,TOTAL,test,TOTAL
+test_62,0,TOTAL 48.000,total.total_price,TOTAL,test,TOTAL
+test_62,1,CASH 50.000,total.cashprice,TOTAL,test,TOTAL
+test_62,2,"CHANGED 2,000",total.changeprice,TOTAL,test,TOTAL
+test_62,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_62,4,XXI Java Tea (M),menu.nm,ARTICULO,test,ARTICULO
+test_62,5,18.000,menu.price,PRECIO,test,PRECIO
+test_62,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_62,7,Combo 2,menu.nm,ARTICULO,test,ARTICULO
+test_62,8,30.000,menu.price,PRECIO,test,PRECIO
+test_63,0,Kopi Susu Kampung.,menu.nm,ARTICULO,test,ARTICULO
+test_63,1,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_63,2,19.000,menu.price,PRECIO,test,PRECIO
+test_63,3,Ice,menu.sub_nm,ARTICULO,test,ARTICULO
+test_63,4,Kopi Susu Kampung Less Ice,menu.sub_nm,ARTICULO,test,ARTICULO
+test_63,5,0,menu.sub_price,OTRO,test,CANTIDAD
+test_63,6,Kopi Susu Kampung.,menu.nm,ARTICULO,test,ARTICULO
+test_63,7,x2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_63,8,38.000,menu.price,PRECIO,test,PRECIO
+test_63,9,Ice,menu.sub_nm,ARTICULO,test,ARTICULO
+test_63,10,Subtotal 57.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_63,11,Total 57.000,total.total_price,TOTAL,test,TOTAL
+test_63,12,Cash 60.000,total.cashprice,TOTAL,test,TOTAL
+test_63,13,Change 3.000,total.changeprice,TOTAL,test,TOTAL
+test_64,0,TOTAL 16.000,total.total_price,TOTAL,test,TOTAL
+test_64,1,CATEND 50.000,total.cashprice,TOTAL,test,TOTAL
+test_64,2,CHANGE 34.000,total.changeprice,TOTAL,test,TOTAL
+test_64,3,SINGLE SCOOP,menu.nm,ARTICULO,test,ARTICULO
+test_64,4,16.000,menu.price,PRECIO,test,PRECIO
+test_65,0,Bubur Polos + Telur,menu.nm,ARTICULO,test,ARTICULO
+test_65,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_65,2,13.000,menu.unitprice,PRECIO,test,PRECIO
+test_65,3,13.000,menu.price,PRECIO,test,PRECIO
+test_65,4,Subtotal 13.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_65,5,Pajak -,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_65,6,Total 13.000,total.total_price,TOTAL,test,TOTAL
+test_66,0,PILLOW DURIA,menu.nm,ARTICULO,test,ARTICULO
+test_66,1,"36,364",menu.price,PRECIO,test,PRECIO
+test_66,2,PLASTIK 25,menu.nm,ARTICULO,test,ARTICULO
+test_66,3,0,menu.price,PRECIO,test,CANTIDAD
+test_66,4,"SUBTOTAL 36,364",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_66,5,"PD1 10% 10.000Z AMOUNT 3,636",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_66,6,"TOTAL 40,000",total.total_price,TOTAL,test,TOTAL
+test_66,7,"CASH 50,000",total.cashprice,TOTAL,test,TOTAL
+test_66,8,"CHANGE 10,000",total.changeprice,TOTAL,test,TOTAL
+test_67,0,2005-,menu.num,OTRO,test,OTRO
+test_67,1,CHEESE JOHN,menu.nm,ARTICULO,test,ARTICULO
+test_67,2,"9.500,00",menu.unitprice,PRECIO,test,PRECIO
+test_67,3,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_67,4,"9.500,00",menu.price,PRECIO,test,PRECIO
+test_67,5,"Total. 9.500,00",total.total_price,TOTAL,test,TOTAL
+test_67,6,"Cash Tendered: 9.500,00",total.cashprice,TOTAL,test,TOTAL
+test_67,7,Total Item: 1,total.menuqty_cnt,TOTAL,test,TOTAL
+test_68,0,ICED TT,menu.nm,ARTICULO,test,ARTICULO
+test_68,1,"20,000",menu.price,PRECIO,test,PRECIO
+test_68,2,"TOTAL 20,000",total.total_price,TOTAL,test,TOTAL
+test_68,3,"CASH 50,000",total.cashprice,TOTAL,test,TOTAL
+test_68,4,"CHANGE 30,000",total.changeprice,TOTAL,test,TOTAL
+test_69,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_69,1,[MD] SOFT MORNING ROLL,menu.nm,ARTICULO,test,ARTICULO
+test_69,2,"18,000",menu.price,PRECIO,test,PRECIO
+test_69,3,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_69,4,REAL HONEY PANCAKE BREAD,menu.nm,ARTICULO,test,ARTICULO
+test_69,5,"20,000",menu.price,PRECIO,test,PRECIO
+test_69,6,4,menu.cnt,CANTIDAD,test,CANTIDAD
+test_69,7,CUSTARD BRIOCHE,menu.nm,ARTICULO,test,ARTICULO
+test_69,8,"36,000",menu.price,PRECIO,test,PRECIO
+test_69,9,"TOTAL 74,000",total.total_price,TOTAL,test,TOTAL
+test_69,10,"CASH 100,000",total.cashprice,TOTAL,test,TOTAL
+test_69,11,"CHANGE 26,000",total.changeprice,TOTAL,test,TOTAL
+test_70,0,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,1,UDANG RE,menu.nm,ARTICULO,test,ARTICULO
+test_70,2,"216,000",menu.unitprice,PRECIO,test,PRECIO
+test_70,3,"432,000",menu.price,PRECIO,test,PRECIO
+test_70,4,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,5,=*LARGE*==,menu.nm,ARTICULO,test,ARTICULO
+test_70,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,7,AYM GR JUN NJAN,menu.nm,ARTICULO,test,ARTICULO
+test_70,8,"108,000",menu.price,PRECIO,test,PRECIO
+test_70,9,=*MEDIUM*=,menu.sub_nm,ARTICULO,test,ARTICULO
+test_70,10,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,11,SAPO TH SEAFOOD,menu.nm,ARTICULO,test,ARTICULO
+test_70,12,"172,000",menu.price,PRECIO,test,PRECIO
+test_70,13,=*LARGE*==,menu.sub_nm,ARTICULO,test,ARTICULO
+test_70,14,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,15,POCAI 3,menu.nm,ARTICULO,test,ARTICULO
+test_70,16,"111,000",menu.unitprice,PRECIO,test,PRECIO
+test_70,17,222.000,menu.price,PRECIO,test,PRECIO
+test_70,18,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,19,=*MEDIUM*=,menu.nm,ARTICULO,test,ARTICULO
+test_70,20,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,21,GURAME FILLET M,menu.nm,ARTICULO,test,ARTICULO
+test_70,22,"163,000",menu.price,PRECIO,test,PRECIO
+test_70,23,ASAM MANIS,menu.sub_nm,ARTICULO,test,ARTICULO
+test_70,24,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,25,BIHUN GORENG JJ,menu.nm,ARTICULO,test,ARTICULO
+test_70,26,"116,000",menu.price,PRECIO,test,PRECIO
+test_70,27,=*LARGE*==,menu.sub_nm,ARTICULO,test,ARTICULO
+test_70,28,5,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,29,ICED TEA,menu.nm,ARTICULO,test,ARTICULO
+test_70,30,"12,000",menu.unitprice,PRECIO,test,PRECIO
+test_70,31,"60,000",menu.price,PRECIO,test,PRECIO
+test_70,32,7,menu.cnt,CANTIDAD,test,CANTIDAD
+test_70,33,NASI PUTIH,menu.nm,ARTICULO,test,ARTICULO
+test_70,34,"10,000",menu.unitprice,PRECIO,test,PRECIO
+test_70,35,"70,000",menu.price,PRECIO,test,PRECIO
+test_70,36,"FOOD 1,213,000",sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_70,37,"BEVERAGES 60,000",sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_70,38,"OTHERS 70,000",sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_70,39,"SUBTOTAL 1,343,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_70,40,"SERVICE CHARGE 80,580",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_70,41,"Tax 10% 142,358",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_70,42,"DU 1,565,938",total.total_price,TOTAL,test,TOTAL
+test_71,0,Cuka Apel Tetes,menu.nm,ARTICULO,test,ARTICULO
+test_71,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_71,2,198000,menu.unitprice,PRECIO,test,PRECIO
+test_71,3,198000,menu.price,PRECIO,test,PRECIO
+test_71,4,Sub Total 198000,total.total_price,TOTAL,test,SUBTOTAL
+test_71,5,Tunai 200200,total.cashprice,TOTAL,test,TOTAL
+test_71,6,Kembalian 22000,total.changeprice,TOTAL,test,TOTAL
+test_72,0,"Total: 17,500",total.total_price,TOTAL,test,TOTAL
+test_72,1,"cash: 20,000",total.cashprice,TOTAL,test,TOTAL
+test_72,2,"Change: 2,500",total.changeprice,TOTAL,test,TOTAL
+test_72,3,"SubTotal: 15,909",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_72,4,"PB1: 1,591",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_72,5,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_72,6,Choco Devil,menu.nm,ARTICULO,test,ARTICULO
+test_72,7,"15,909",menu.price,PRECIO,test,PRECIO
+test_73,0,1001-Choco Bun,menu.nm,ARTICULO,test,ARTICULO
+test_73,1,22.000,menu.unitprice,PRECIO,test,PRECIO
+test_73,2,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_73,3,22.000,menu.price,PRECIO,test,PRECIO
+test_73,4,6001-Plastic Bag Small,menu.nm,ARTICULO,test,ARTICULO
+test_73,5,0,menu.unitprice,PRECIO,test,CANTIDAD
+test_73,6,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_73,7,0,menu.price,PRECIO,test,CANTIDAD
+test_73,8,22.000 Total.,total.total_price,TOTAL,test,TOTAL
+test_73,9,Total Item: 2,total.menuqty_cnt,TOTAL,test,TOTAL
+test_73,10,Cash 25.000 Tendered:,total.cashprice,TOTAL,test,TOTAL
+test_73,11,3.000 Change:,total.changeprice,TOTAL,test,TOTAL
+test_74,0,"TOTAL 330,264",total.total_price,TOTAL,test,TOTAL
+test_74,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_74,2,BLACKCURRANT,menu.nm,ARTICULO,test,ARTICULO
+test_74,3,"32,000",menu.price,PRECIO,test,PRECIO
+test_74,4,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_74,5,SPRITE,menu.nm,ARTICULO,test,ARTICULO
+test_74,6,"32,000",menu.price,PRECIO,test,PRECIO
+test_74,7,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_74,8,GRILLED CALAMARI,menu.nm,ARTICULO,test,ARTICULO
+test_74,9,"85,000",menu.price,PRECIO,test,PRECIO
+test_74,10,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_74,11,DINE FOR 2,menu.nm,ARTICULO,test,ARTICULO
+test_74,12,"129,000",menu.price,PRECIO,test,PRECIO
+test_74,13,* DANISH FISH & CHIPS DF,menu.sub_nm,ARTICULO,test,ARTICULO
+test_74,14,* NEW YORK FISH & CHIPS,menu.sub_nm,ARTICULO,test,ARTICULO
+test_74,15,"SUBTTL 278,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_74,16,"Service Charge 22,240",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_74,17,"TAX 30,024",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_74,18,"BEVERAGE 64,000",sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_74,19,"FOOD 214,000",sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_75,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_75,1,CHOCO PUFF,menu.nm,ARTICULO,test,ARTICULO
+test_75,2,"29,091",menu.price,PRECIO,test,PRECIO
+test_75,3,"TOTAL 282,000",total.total_price,TOTAL,test,TOTAL
+test_75,4,"SUBTOTAL 256,363",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_75,5,"TAX 25,637",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_75,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_75,7,CREAMY BEEF CLS FTC,menu.nm,ARTICULO,test,ARTICULO
+test_75,8,"42,727",menu.price,PRECIO,test,PRECIO
+test_75,9,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_75,10,NEW ORIENTAL CHK RICE,menu.nm,ARTICULO,test,ARTICULO
+test_75,11,"34,545",menu.price,PRECIO,test,PRECIO
+test_75,12,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_75,13,LIPTON PITCHER,menu.nm,ARTICULO,test,ARTICULO
+test_75,14,"54,545",menu.price,PRECIO,test,PRECIO
+test_75,15,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_75,16,SC/P SUPER SUPREME,menu.nm,ARTICULO,test,ARTICULO
+test_75,17,"47,273",menu.price,PRECIO,test,PRECIO
+test_75,18,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_75,19,CB/P BLACK PEPP BEEF,menu.nm,ARTICULO,test,ARTICULO
+test_75,20,"48,182",menu.price,PRECIO,test,PRECIO
+test_76,0,BASO TAHU,menu.nm,ARTICULO,test,ARTICULO
+test_76,1,*46000,menu.price,PRECIO,test,PRECIO
+test_76,2,TEMS 50 -,total.menutype_cnt,TOTAL,test,TOTAL
+test_76,3,ASH *110000,total.cashprice,TOTAL,test,TOTAL
+test_76,4,NASI PUTIH,menu.nm,ARTICULO,test,ARTICULO
+test_76,5,*6000,menu.price,PRECIO,test,PRECIO
+test_76,6,BASO TAHU,menu.nm,ARTICULO,test,ARTICULO
+test_76,7,*46000,menu.price,PRECIO,test,PRECIO
+test_76,8,NASI PUTIH,menu.nm,ARTICULO,test,ARTICULO
+test_76,9,*12000,menu.price,PRECIO,test,PRECIO
+test_76,10,2x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_76,11,6000,menu.unitprice,PRECIO,test,PRECIO
+test_77,0,x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_77,1,TRIPPLE CHEESE,menu.nm,ARTICULO,test,ARTICULO
+test_77,2,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_77,3,"17,000",menu.unitprice,PRECIO,test,PRECIO
+test_77,4,"17,000",menu.price,PRECIO,test,PRECIO
+test_77,5,"SUB TOTAL 17,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_77,6,"GRAND TOTAL 17,000",total.total_price,TOTAL,test,TOTAL
+test_77,7,"CASH IDR 22,000",total.cashprice,TOTAL,test,TOTAL
+test_77,8,"CHANGE DUE 5,000",total.changeprice,TOTAL,test,TOTAL
+test_78,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_78,1,Lemon Tea (L),menu.nm,ARTICULO,test,ARTICULO
+test_78,2,25.000,menu.price,PRECIO,test,PRECIO
+test_78,3,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_78,4,Extra Jelly Lychee,menu.sub_nm,ARTICULO,test,ARTICULO
+test_78,5,5.000,menu.sub_price,OTRO,test,PRECIO
+test_78,6,TOTAL 30.000,total.total_price,TOTAL,test,TOTAL
+test_78,7,CASH 30.000,total.cashprice,TOTAL,test,TOTAL
+test_78,8,CHANGED 0,total.changeprice,TOTAL,test,TOTAL
+test_79,0,1001-Choco Bun,menu.nm,ARTICULO,test,ARTICULO
+test_79,1,22.000,menu.unitprice,PRECIO,test,PRECIO
+test_79,2,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_79,3,22.000,menu.price,PRECIO,test,PRECIO
+test_79,4,6001-Plastic Bag Small,menu.nm,ARTICULO,test,ARTICULO
+test_79,5,0,menu.unitprice,PRECIO,test,CANTIDAD
+test_79,6,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_79,7,0,menu.price,PRECIO,test,CANTIDAD
+test_79,8,Total Item: 2,total.menuqty_cnt,TOTAL,test,TOTAL
+test_79,9,22.000,total.total_price,TOTAL,test,PRECIO
+test_79,10,22.000,total.cashprice,TOTAL,test,PRECIO
+test_80,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_80,1,Viet Milk Coffee,menu.nm,ARTICULO,test,ARTICULO
+test_80,2,"25,000",menu.price,PRECIO,test,PRECIO
+test_80,3,+Ice,menu.sub_nm,ARTICULO,test,ARTICULO
+test_80,4,+M,menu.sub_nm,ARTICULO,test,CANTIDAD
+test_80,5,Subtotal 25.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_80,6,Total 25.000,total.total_price,TOTAL,test,TOTAL
+test_80,7,CASH 25.000,total.cashprice,TOTAL,test,TOTAL
+test_80,8,Kembalian 0,total.changeprice,TOTAL,test,TOTAL
+test_81,0,3002-Kyoto Choco Mochi,menu.nm,ARTICULO,test,ARTICULO
+test_81,1,x2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_81,2,14.000,menu.unitprice,PRECIO,test,PRECIO
+test_81,3,28.000,menu.price,PRECIO,test,PRECIO
+test_81,4,1001-Choco Bun,menu.nm,ARTICULO,test,ARTICULO
+test_81,5,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_81,6,22.000,menu.unitprice,PRECIO,test,PRECIO
+test_81,7,22.000,menu.price,PRECIO,test,PRECIO
+test_81,8,6001-Plastic Bag Small,menu.nm,ARTICULO,test,ARTICULO
+test_81,9,x1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_81,10,0,menu.unitprice,PRECIO,test,CANTIDAD
+test_81,11,0,menu.price,PRECIO,test,CANTIDAD
+test_81,12,Total. 50.000,total.total_price,TOTAL,test,TOTAL
+test_81,13,Total Item: 4,total.menuqty_cnt,TOTAL,test,TOTAL
+test_82,0,8213,total.creditcardprice,TOTAL,test,OTRO
+test_82,1,Chocolate Log Cake,menu.nm,ARTICULO,test,ARTICULO
+test_82,2,1x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_82,3,"115,000",menu.unitprice,PRECIO,test,PRECIO
+test_82,4,"115,000",menu.price,PRECIO,test,PRECIO
+test_82,5,Snowman Cake Chocolate,menu.nm,ARTICULO,test,ARTICULO
+test_82,6,1x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_82,7,"60,000",menu.unitprice,PRECIO,test,PRECIO
+test_82,8,"60,000",menu.price,PRECIO,test,PRECIO
+test_82,9,Strawberry Log Cake,menu.nm,ARTICULO,test,ARTICULO
+test_82,10,2x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_82,11,"105,000",menu.unitprice,PRECIO,test,OTRO
+test_82,12,"210,000",menu.price,PRECIO,test,PRECIO
+test_82,13,"GRAND TOTAL 385,000",total.total_price,TOTAL,test,TOTAL
+test_82,14,"VISA MASTER 385,000",total.creditcardprice,TOTAL,test,TOTAL
+test_82,15,CHANGE 0,total.changeprice,TOTAL,test,TOTAL
+test_82,16,"Sub Total 385,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_83,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_83,1,COOKIES AND CREAM,menu.nm,ARTICULO,test,ARTICULO
+test_83,2,"20,909",menu.price,PRECIO,test,PRECIO
+test_83,3,"Subtotal 20,909",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_83,4,"PAJAK 10% 2,091",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_83,5,"Total 23,000",total.total_price,TOTAL,test,TOTAL
+test_83,6,Tendered 25.000,total.cashprice,TOTAL,test,TOTAL
+test_83,7,Kembali 2.000,total.changeprice,TOTAL,test,TOTAL
+test_83,8,1,total.menuqty_cnt,TOTAL,test,CANTIDAD
+test_84,0,@,menu.unitprice,PRECIO,test,CANTIDAD
+test_84,1,@,menu.unitprice,PRECIO,test,CANTIDAD
+test_84,2,Rp,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_84,3,Rp,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_84,4,Rp,total.total_price,TOTAL,test,SUBTOTAL
+test_84,5,Rp,total.total_etc,TOTAL,test,SUBTOTAL
+test_84,6,Kroket,menu.nm,ARTICULO,test,ARTICULO
+test_84,7,1x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_84,8,12.000,menu.unitprice,PRECIO,test,PRECIO
+test_84,9,12.000,menu.price,PRECIO,test,PRECIO
+test_84,10,Arem Arem,menu.nm,ARTICULO,test,ARTICULO
+test_84,11,2x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_84,12,12.000,menu.unitprice,PRECIO,test,PRECIO
+test_84,13,24.000,menu.price,PRECIO,test,PRECIO
+test_84,14,Subtotal 36.000,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_84,15,Tax (10.0%) 3.600,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_84,16,Total 39.600,total.total_price,TOTAL,test,TOTAL
+test_84,17,Other 39.600,total.emoneyprice,TOTAL,test,SUBTOTAL
+test_85,0,3,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,1,Nasi Putih,menu.nm,ARTICULO,test,ARTICULO
+test_85,2,30.000,menu.price,PRECIO,test,PRECIO
+test_85,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,4,Nasi Tambah,menu.nm,ARTICULO,test,ARTICULO
+test_85,5,7.000,menu.price,PRECIO,test,PRECIO
+test_85,6,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,7,Ayam Pop,menu.nm,ARTICULO,test,ARTICULO
+test_85,8,40.000,menu.price,PRECIO,test,PRECIO
+test_85,9,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,10,Samabal SP,menu.nm,ARTICULO,test,ARTICULO
+test_85,11,11.000,menu.price,PRECIO,test,PRECIO
+test_85,12,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,13,Sambal Gabus Asin Cb,menu.nm,ARTICULO,test,ARTICULO
+test_85,14,18.000,menu.price,PRECIO,test,PRECIO
+test_85,15,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,16,Kerupuk Kuah,menu.nm,ARTICULO,test,ARTICULO
+test_85,17,15.000,menu.price,PRECIO,test,PRECIO
+test_85,18,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,19,Ikan Bawal Besa,menu.nm,ARTICULO,test,ARTICULO
+test_85,20,28.500,menu.price,PRECIO,test,PRECIO
+test_85,21,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,22,Telur Dadar,menu.nm,ARTICULO,test,ARTICULO
+test_85,23,10.000,menu.price,PRECIO,test,PRECIO
+test_85,24,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,25,Teh Es,menu.nm,ARTICULO,test,ARTICULO
+test_85,26,7.000,menu.price,PRECIO,test,PRECIO
+test_85,27,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,28,Teh Manis,menu.nm,ARTICULO,test,ARTICULO
+test_85,29,9.000,menu.price,PRECIO,test,PRECIO
+test_85,30,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_85,31,Es Batu,menu.nm,ARTICULO,test,ARTICULO
+test_85,32,4.000,menu.price,PRECIO,test,PRECIO
+test_85,33,Subtotal 179.500,sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_85,34,Pajak Rest. 10% 17.950,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_85,35,Ttl Makanan 159.500,sub_total.etc,SUBTOTAL,test,ARTICULO
+test_85,36,Ttl Minuman 20.000,sub_total.etc,SUBTOTAL,test,ARTICULO
+test_85,37,Total 197.450,total.total_price,TOTAL,test,TOTAL
+test_85,38,Cash 197.450,total.cashprice,TOTAL,test,TOTAL
+test_85,39,14,total.menuqty_cnt,TOTAL,test,OTRO
+test_86,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_86,1,Cheezemania,menu.nm,ARTICULO,test,ARTICULO
+test_86,2,"9,500",menu.price,PRECIO,test,PRECIO
+test_86,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_86,4,Mamamia,menu.nm,ARTICULO,test,ARTICULO
+test_86,5,"12,500",menu.price,PRECIO,test,PRECIO
+test_86,6,"SUBTOTAL 22,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_86,7,"DUE 22,000",total.total_price,TOTAL,test,TOTAL
+test_86,8,"CASH 52,000",total.cashprice,TOTAL,test,TOTAL
+test_86,9,"CHANGE 30,000",total.changeprice,TOTAL,test,TOTAL
+test_86,10,2 ITEM,total.menutype_cnt,TOTAL,test,TOTAL
+test_86,11,TOTAL QTY 2 PCS,total.menuqty_cnt,TOTAL,test,TOTAL
+test_87,0,:,sub_total.tax_price,SUBTOTAL,test,CANTIDAD
+test_87,1,:,total.total_price,TOTAL,test,CANTIDAD
+test_87,2,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_87,3,PHOTAI CHIN,menu.nm,ARTICULO,test,ARTICULO
+test_87,4,"36,500",menu.price,PRECIO,test,PRECIO
+test_87,5,"Sub Total 36,500",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_87,6,"PB1 10.0% 3,650",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_87,7,"Grand Total 40,150",total.total_price,TOTAL,test,TOTAL
+test_87,8,"5183230101 CREDIT CARD 40,150",total.creditcardprice,TOTAL,test,TOTAL
+test_88,0,X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_88,1,x,menu.cnt,CANTIDAD,test,CANTIDAD
+test_88,2,STIX ECLAIRS,menu.nm,ARTICULO,test,ARTICULO
+test_88,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_88,4,"19,000",menu.unitprice,PRECIO,test,PRECIO
+test_88,5,"19,000",menu.price,PRECIO,test,PRECIO
+test_88,6,ALMOND CREAM CHEESE,menu.nm,ARTICULO,test,ARTICULO
+test_88,7,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_88,8,"28,000",menu.unitprice,PRECIO,test,PRECIO
+test_88,9,"28,000",menu.price,PRECIO,test,PRECIO
+test_88,10,"SUB TOTAL 47,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_88,11,"GRAND TOTAL 47,000",total.total_price,TOTAL,test,TOTAL
+test_88,12,"VISA 8945 47,000",total.creditcardprice,TOTAL,test,PRECIO
+test_88,13,CHANGE DUE 0,total.changeprice,TOTAL,test,TOTAL
+test_89,0,"Total 40,000",total.total_price,TOTAL,test,TOTAL
+test_89,1,"Pay Cash 50,000",total.cashprice,TOTAL,test,TOTAL
+test_89,2,"Change : 10,000",total.changeprice,TOTAL,test,TOTAL
+test_89,3,ITEMS: 1,total.menuqty_cnt,TOTAL,test,TOTAL
+test_89,4,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_89,5,XXL Crispy Chicken,menu.nm,ARTICULO,test,ARTICULO
+test_89,6,"40,000",menu.price,PRECIO,test,PRECIO
+test_89,7,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_89,8,Pedas sedikit,menu.sub_nm,ARTICULO,test,ARTICULO
+test_89,9,0,menu.sub_price,OTRO,test,CANTIDAD
+test_89,10,"40,000",sub_total.subtotal_price,SUBTOTAL,test,PRECIO
+test_90,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_90,1,CIRENG PANDAWA,menu.nm,ARTICULO,test,ARTICULO
+test_90,2,"26,818",menu.price,PRECIO,test,PRECIO
+test_90,3,"Subtotal 26,818",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_90,4,"Pb1 2,681",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_90,5,"Total 29,500",total.total_price,TOTAL,test,TOTAL
+test_90,6,"CASH 29,500",total.cashprice,TOTAL,test,TOTAL
+test_90,7,Total Item 1,total.menutype_cnt,TOTAL,test,TOTAL
+test_90,8,Total Qty 1,total.menuqty_cnt,TOTAL,test,TOTAL
+test_91,0,TL 21.000,total.total_price,TOTAL,test,TOTAL
+test_91,1,CASH 30.000,total.cashprice,TOTAL,test,TOTAL
+test_91,2,CG 9.000,total.changeprice,TOTAL,test,PRECIO
+test_91,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_91,4,BAKSO BNGKS,menu.nm,ARTICULO,test,ARTICULO
+test_91,5,15.000,menu.price,PRECIO,test,PRECIO
+test_91,6,6,menu.cnt,CANTIDAD,test,CANTIDAD
+test_91,7,GORENGAN,menu.nm,ARTICULO,test,ARTICULO
+test_91,8,6.000,menu.price,PRECIO,test,PRECIO
+test_92,0,901016,menu.num,OTRO,test,OTRO
+test_92,1,- TICKET CP,menu.nm,ARTICULO,test,ARTICULO
+test_92,2,4,menu.cnt,CANTIDAD,test,CANTIDAD
+test_92,3,60.000,menu.unitprice,PRECIO,test,PRECIO
+test_92,4,"240,000",menu.price,PRECIO,test,PRECIO
+test_92,5,(Qty=4.00),total.menuqty_cnt,TOTAL,test,OTRO
+test_92,6,TOTAL 240.000,total.total_price,TOTAL,test,TOTAL
+test_92,7,CASH 250.000,total.cashprice,TOTAL,test,TOTAL
+test_92,8,"CHANGE 10,000",total.changeprice,TOTAL,test,TOTAL
+test_93,0,X,menu.cnt,CANTIDAD,test,CANTIDAD
+test_93,1,THAI ICED TEA (L),menu.nm,ARTICULO,test,ARTICULO
+test_93,2,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_93,3,"16,363",menu.unitprice,PRECIO,test,PRECIO
+test_93,4,"16,363",menu.price,PRECIO,test,PRECIO
+test_93,5,"Sub Total 16,363",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_93,6,"Pajak Resto 1,636",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_93,7,"Grand Total 17,999",total.total_price,TOTAL,test,TOTAL
+test_93,8,Jumlah Item 1,total.menuqty_cnt,TOTAL,test,TOTAL
+test_94,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_94,1,TAHU GORENG,menu.nm,ARTICULO,test,ARTICULO
+test_94,2,"28,000",menu.price,PRECIO,test,PRECIO
+test_94,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_94,4,CAKWE,menu.nm,ARTICULO,test,ARTICULO
+test_94,5,"17,000",menu.price,PRECIO,test,PRECIO
+test_94,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_94,7,PHO TAI CHIN(R),menu.nm,ARTICULO,test,ARTICULO
+test_94,8,"63,000",menu.price,PRECIO,test,PRECIO
+test_94,9,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_94,10,TEA,menu.nm,ARTICULO,test,ARTICULO
+test_94,11,"11,000",menu.price,PRECIO,test,PRECIO
+test_94,12,"Sub Total 119,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_94,13,"Serv. 7.0% 8,330",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_94,14,"PB1 10.0% 12,733",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_94,15,"Grand Total 140,063",total.total_price,TOTAL,test,TOTAL
+test_94,16,"CREDIT CAR: 140,063",total.creditcardprice,TOTAL,test,TOTAL
+test_95,0,BASO TAHU,menu.nm,ARTICULO,test,ARTICULO
+test_95,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_95,2,"43,181",menu.unitprice,PRECIO,test,PRECIO
+test_95,3,"43,181",menu.price,PRECIO,test,PRECIO
+test_95,4,ES JERUK,menu.nm,ARTICULO,test,ARTICULO
+test_95,5,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_95,6,"13,000",menu.unitprice,PRECIO,test,PRECIO
+test_95,7,"13,000",menu.price,PRECIO,test,PRECIO
+test_95,8,"TOTAL 56,181",sub_total.subtotal_price,SUBTOTAL,test,TOTAL
+test_95,9,"TAX 10.00 % 5,618",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_95,10,"GRAND TOTAL 61,799",total.total_price,TOTAL,test,TOTAL
+test_95,11,"TUNAI 62,000",total.cashprice,TOTAL,test,TOTAL
+test_95,12,KEMBALI 201,total.cashprice,TOTAL,test,TOTAL
+test_96,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_96,1,BBQ Chicken,menu.nm,ARTICULO,test,ARTICULO
+test_96,2,"41,000",menu.price,PRECIO,test,PRECIO
+test_96,3,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_96,4,- Tidak Pedas,menu.sub_nm,ARTICULO,test,ARTICULO
+test_96,5,0,menu.sub_price,OTRO,test,CANTIDAD
+test_96,6,ITEMS: 1,total.menutype_cnt,TOTAL,test,TOTAL
+test_96,7,"41,000 Total.",total.total_price,TOTAL,test,TOTAL
+test_96,8,"Pay Cash 50,000",total.cashprice,TOTAL,test,TOTAL
+test_96,9,"Change: 9,000",total.changeprice,TOTAL,test,TOTAL
+test_96,10,"41,000",sub_total.subtotal_price,SUBTOTAL,test,PRECIO
+test_97,0,TOTAL 55.000,total.total_price,TOTAL,test,TOTAL
+test_97,1,6.00xITEMS,total.menuqty_cnt,TOTAL,test,TOTAL
+test_97,2,CASH 55.000,total.cashprice,TOTAL,test,TOTAL
+test_97,3,2,menu.cnt,CANTIDAD,test,CANTIDAD
+test_97,4,20.000,menu.unitprice,PRECIO,test,PRECIO
+test_97,5,BUBUR GO,menu.nm,ARTICULO,test,ARTICULO
+test_97,6,40.000,menu.price,PRECIO,test,PRECIO
+test_97,7,PUYUH GO,menu.nm,ARTICULO,test,ARTICULO
+test_97,8,6.000,menu.price,PRECIO,test,PRECIO
+test_97,9,3,menu.cnt,CANTIDAD,test,CANTIDAD
+test_97,10,3.000,menu.unitprice,PRECIO,test,PRECIO
+test_97,11,SATE ATI GO,menu.nm,ARTICULO,test,ARTICULO
+test_97,12,9.000,menu.price,PRECIO,test,PRECIO
+test_98,0,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_98,1,BLACK PAPPER MEATBALL PAS,menu.nm,ARTICULO,test,ARTICULO
+test_98,2,"79,000",menu.price,PRECIO,test,PRECIO
+test_98,3,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_98,4,TRUFFLE CREAM,menu.nm,ARTICULO,test,ARTICULO
+test_98,5,"77,000",menu.price,PRECIO,test,PRECIO
+test_98,6,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_98,7,EARL GREY MILK TEA,menu.nm,ARTICULO,test,ARTICULO
+test_98,8,"59,000",menu.price,PRECIO,test,PRECIO
+test_98,9,"SUBTTL 215,000",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_98,10,"Service Charge 6% 12,900",sub_total.service_price,SUBTOTAL,test,SUBTOTAL
+test_98,11,"TAX 10% 22,790",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_98,12,"TOTAL 250,690",total.total_price,TOTAL,test,TOTAL
+test_99,0,Vanilla SLC,menu.sub_nm,ARTICULO,test,ARTICULO
+test_99,1,1,menu.cnt,CANTIDAD,test,CANTIDAD
+test_99,2,FL-Xmas 30 Off,menu.nm,ARTICULO,test,ARTICULO
+test_99,3,"68,180",menu.price,PRECIO,test,PRECIO
+test_99,4,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_99,5,PAKET SLICES,menu.sub_nm,ARTICULO,test,ARTICULO
+test_99,6,0,menu.sub_price,OTRO,test,CANTIDAD
+test_99,7,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_99,8,FL Cake - French,menu.sub_nm,ARTICULO,test,OTRO
+test_99,9,0,menu.sub_price,OTRO,test,CANTIDAD
+test_99,10,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_99,11,PAKET SLICES,menu.sub_nm,ARTICULO,test,ARTICULO
+test_99,12,0,menu.sub_price,OTRO,test,CANTIDAD
+test_99,13,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_99,14,FL Cake - Green Tea SLC,menu.sub_nm,ARTICULO,test,ARTICULO
+test_99,15,0,menu.sub_price,OTRO,test,CANTIDAD
+test_99,16,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_99,17,PAKET SLICES,menu.sub_nm,ARTICULO,test,ARTICULO
+test_99,18,0,menu.sub_price,OTRO,test,CANTIDAD
+test_99,19,1,menu.sub_cnt,OTRO,test,CANTIDAD
+test_99,20,FL Cake - Belgium Choco SLC,menu.sub_nm,ARTICULO,test,ARTICULO
+test_99,21,0,menu.sub_price,OTRO,test,CANTIDAD
+test_99,22,"SUBTOTAL 68,180",sub_total.subtotal_price,SUBTOTAL,test,SUBTOTAL
+test_99,23,DISKON 0,sub_total.discount_price,SUBTOTAL,test,SUBTOTAL
+test_99,24,BIAYA TAMBAHAN 0,sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_99,25,"PAJAK PPN 10 % 6,818",sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_99,26,BIAYA CC 0,sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_99,27,PEMBULATAN 2,sub_total.etc,SUBTOTAL,test,SUBTOTAL
+test_99,28,PAJAK 0% 0,sub_total.tax_price,SUBTOTAL,test,SUBTOTAL
+test_99,29,"TOTAL 75,000",total.total_price,TOTAL,test,TOTAL
+test_99,30,TUNAI 0,total.cashprice,TOTAL,test,TOTAL
+test_99,31,"NON TUNAI 75,000",total.creditcardprice,TOTAL,test,TOTAL
+test_99,32,KEMBALI 0,total.changeprice,TOTAL,test,TOTAL

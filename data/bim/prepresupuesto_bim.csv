@@ -1,0 +1,7 @@
+﻿codigo,concepto,medida_origen,cantidad,unidad,elementos,estado_calidad,precio_unitario_mxn,importe_mxn,observacion
+BIM-001,Muros - volumen neto,NetVolume,146.6028,m3,18,PRELIMINAR,,,No usar para compras reales sin validar el IFC y el alcance de obra
+BIM-002,Muros - superficie lateral neta,NetSideArea,1641.6213,m2,18,PRELIMINAR,,,No usar para compras reales sin validar el IFC y el alcance de obra
+BIM-003,Losas - volumen neto,NetVolume,132.954,m3,4,REVISAR_IFC,,,No usar para compras reales sin validar el IFC y el alcance de obra
+BIM-004,Plafones - área bruta,GrossCeilingArea,304.18,m2,5,PRELIMINAR,,,No usar para compras reales sin validar el IFC y el alcance de obra
+BIM-005,Puertas - cantidad de elementos,CONTEO,18.0,pza,18,PRELIMINAR,,,No usar para compras reales sin validar el IFC y el alcance de obra
+BIM-006,Ventanas - cantidad de elementos,CONTEO,42.0,pza,42,PRELIMINAR,,,No usar para compras reales sin validar el IFC y el alcance de obra

@@ -1,0 +1,19 @@
+{
+  "proyecto": "Construction Intelligence AI",
+  "dataset": "Heliosoph/CORD",
+  "version_origen": "CORD v1",
+  "tarea": "Clasificacion post-OCR de lineas de recibos",
+  "modelo_seleccionado": "LOGISTICA",
+  "documentos_por_split": {
+    "train": 800,
+    "validation": 100,
+    "test": 100
+  },
+  "advertencias": [
+    "No realiza OCR de imagenes.",
+    "No se ha evaluado con facturas mexicanas.",
+    "Las metricas corresponden a lineas de recibos.",
+    "El F1 no mide extraccion documental completa.",
+    "El dataset es un espejo de CORD v1, no CORD v2."
+  ]
+}

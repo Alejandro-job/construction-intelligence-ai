@@ -1,0 +1,18 @@
+{
+  "proyecto": "Construction Intelligence AI",
+  "origen": "FRED - WPU101 y WPU08",
+  "modelos_seleccionados": {
+    "Acero": "LSTM",
+    "Madera": "Persistencia"
+  },
+  "inicio_datos": "2000-01-01",
+  "fin_datos": "2026-08-01",
+  "tipo_evaluacion": "Prediccion mensual un paso adelante",
+  "advertencias": [
+    "Resultados exploratorios: el periodo de prueba ya fue examinado en experimentos anteriores.",
+    "Intervalos bootstrap aproximados, no garantia de generalizacion estadistica.",
+    "Series estadounidenses PPI, no precios en MXN.",
+    "El forecast de seis meses aun no cuenta con una evaluacion multi-horizonte.",
+    "Falta validacion prospectiva con datos nuevos."
+  ]
+}

@@ -1,0 +1,75 @@
+CONSTRUCTION INTELLIGENCE AI — DASHBOARD DE PORTAFOLIO
+=====================================================
+
+QUÉ ES
+Un dashboard local para Windows que integra resultados reales de experimentos
+con datos públicos: forecasting neuronal LSTM de acero y persistencia de madera,
+clasificación de recibos CORD v1, OCR neuronal RapidOCR vs Tesseract y datos
+BIM de un archivo IFC público.
+
+REQUISITOS
+- Windows 10/11
+- Python 3.10 o 3.11, recomendado Python 3.11 (python.org)
+- Conexión a internet durante la primera instalación
+- Al menos 2 GB de espacio libre para dependencias y OCR
+
+INSTALACIÓN SENCILLA
+1. Descomprime Construction_Intelligence_Dashboard.zip en tu PC.
+2. Abre la carpeta Construction_Intelligence_Dashboard.
+3. Da doble clic en INICIAR_DASHBOARD.bat.
+4. Espera la instalación de paquetes (puede tardar varios minutos la primera vez).
+5. Abre http://localhost:8501 si el navegador no se abre automáticamente.
+6. Para cerrar el servidor, cierra la ventana negra o pulsa Ctrl+C.
+
+SI WINDOWS NO ENCUENTRA PYTHON
+Se admite Python 3.10 o 3.11. Tambien puedes iniciar desde la terminal de VS Code:
+  python -m venv .venv
+  .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+  .\.venv\Scripts\python.exe -m streamlit run app.py
+
+CONTENIDOS
+- app.py: visualización con Plotly y laboratorio interactivo
+- data/: CSV y metadatos de las pruebas reales
+- models/: pesos guardados de LSTM, GRU y clasificadores documentales
+- assets/: gráficos y recibos CORD públicos de demostración
+
+FUNCIONES LOCALES
+- Resumen: indicadores reales, comparaciones y arquitectura visual.
+- Centro de metricas IA: benchmarks, F1 por categoria, confusion interactiva,
+  errores mensuales, desempeno OCR y riesgos BIM, con informe HTML descargable.
+- Explicabilidad de la regresion logistica: principales patrones de caracteres
+  que contribuyeron a la clasificacion (evidencia estadistica, no causal).
+- Forecasting: histórico de prueba, error por año y pronósticos exploratorios.
+- Document AI: F1, matriz de confusión y errores por línea.
+- OCR: comparación RapidOCR/Tesseract y análisis de muestras públicas.
+- BIM: conceptos, alertas y sensibilidad de cantidades.
+- Laboratorio: pega texto, carga JPG/PNG/PDF para OCR y un IFC para QTO.
+
+LIMITACIONES IMPORTANTES
+- Experimentos de investigación/portafolio; NO un producto desarrollado para
+  una compañía ni una conexión real a Dynamo, Grasshopper, Revit o Rhino.
+- Los índices FRED son datos de EE. UU., NO precios unitarios en MXN.
+- El conjunto temporal de prueba fue examinado durante la investigación;
+  la mejora LSTM es exploratoria, no una garantía de generalización.
+- Document AI entrenado con recibos CORD v1 de Indonesia, NO CFDI de México.
+- OCR medido con cinco recibos; comparación aproximada de líneas, NO exactitud CER/WER.
+- Cantidades BIM provienen de IFC público distinto a documentos de prueba.
+- Ningún precio BIM fue validado; no se crea un presupuesto monetario real.
+- RapidOCR podría descargar modelos ONNX la primera vez que lo ejecutes.
+- Solo carga documentos propios o autorizados; revisa datos sensibles.
+
+FUENTES
+FRED: https://fred.stlouisfed.org/series/WPU101
+      https://fred.stlouisfed.org/series/WPU08
+CORD v1 mirror: https://huggingface.co/datasets/Heliosoph/CORD
+IFC: https://github.com/flinker-app/ifc-sample-files
+
+Los modelos serializados incluidos son los entrenados durante este proyecto.
+No cargues archivos joblib desconocidos, ya que los objetos pickle no deben
+considerarse seguros si provienen de terceros.
+
+ACTUALIZACION: COTIZACIONES ESTRUCTURADAS
+Se agrego una nueva opcion al menu para importar una cotizacion de ejemplo,
+extraer campos de cliente y partidas, validar importes, revisar manualmente
+y exportar JSON/CSV estructurado. Incluye dos PDFs ficticios en demos/.
+Consulta GUIA_COTIZACIONES.txt para una demostracion de 2 minutos.

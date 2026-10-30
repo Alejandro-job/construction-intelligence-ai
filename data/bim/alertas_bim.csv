@@ -1,0 +1,17 @@
+﻿global_id,ifc_class,regla,valor_registrado,valor_referencia,nota,accion
+2cXV28XOjE6f6irgi0CO28,IfcSlab,GROSS_VS_NET_VOLUME,23166.0,23.166,Volumen bruto muy superior al neto; posible discrepancia de escala/unidades,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0CO28,IfcSlab,NET_AREA_GT_GROSS,317.16,154.44,Área neta supera mucho el área bruta; verificar definiciones de QTO,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COD_,IfcSlab,GROSS_VS_NET_VOLUME,24846.0,24.846,Volumen bruto muy superior al neto; posible discrepancia de escala/unidades,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COD_,IfcSlab,NET_AREA_GT_GROSS,339.8,165.64,Área neta supera mucho el área bruta; verificar definiciones de QTO,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COI6,IfcSlab,GROSS_VS_NET_VOLUME,23166.0,23.166,Volumen bruto muy superior al neto; posible discrepancia de escala/unidades,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COI6,IfcSlab,NET_AREA_GT_GROSS,317.16,154.44,Área neta supera mucho el área bruta; verificar definiciones de QTO,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irga0COSw,IfcSlab,GROSS_VS_NET_VOLUME,5739.178,61.776,Volumen bruto muy superior al neto; posible discrepancia de escala/unidades,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irga0COSw,IfcSlab,NET_AREA_GT_GROSS,330.96,14.348,Área neta supera mucho el área bruta; verificar definiciones de QTO,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COJ6,IfcSpace,VOLUME_AREA_HEIGHT,199680.0,199.68,El volumen registrado no coincide con área por altura; NO reescalar automáticamente,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COJ1,IfcSpace,VOLUME_AREA_HEIGHT,159120.0,159.12,El volumen registrado no coincide con área por altura; NO reescalar automáticamente,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COJS,IfcSpace,VOLUME_AREA_HEIGHT,132720.0,132.72,El volumen registrado no coincide con área por altura; NO reescalar automáticamente,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COJV,IfcSpace,VOLUME_AREA_HEIGHT,107440.0,107.44,El volumen registrado no coincide con área por altura; NO reescalar automáticamente,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COIQ,IfcSpace,VOLUME_AREA_HEIGHT,199680.0,199.68,El volumen registrado no coincide con área por altura; NO reescalar automáticamente,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COIK,IfcSpace,VOLUME_AREA_HEIGHT,159120.0,159.12,El volumen registrado no coincide con área por altura; NO reescalar automáticamente,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COIM,IfcSpace,VOLUME_AREA_HEIGHT,132720.0,132.72,El volumen registrado no coincide con área por altura; NO reescalar automáticamente,REVISAR_ANTES_DE_PRESUPUESTAR
+2cXV28XOjE6f6irgi0COIG,IfcSpace,VOLUME_AREA_HEIGHT,107440.0,107.44,El volumen registrado no coincide con área por altura; NO reescalar automáticamente,REVISAR_ANTES_DE_PRESUPUESTAR
